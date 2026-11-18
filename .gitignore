@@ -1,0 +1,15 @@
+# Large or regenerable artifacts (recomputed by run_all.py; deposit on Zenodo separately if needed)
+*.npz
+outputs*/sample_manifest.csv
+outputs*/predictions_*
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+*_contended.jsonl
+
+# Working output folders of local runs (released results live in results/)
+/outputs*/
+results/*/predictions_*
+results/*/sample_manifest.csv
+.DS_Store

@@ -1,0 +1,500 @@
+{
+ "auroc.Atelectasis": 0.6544382847682739,
+ "auroc.Atelectasis_ci": [
+  0.6455761352800856,
+  0.6631201813836048
+ ],
+ "auroc.Cardiomegaly": 0.8327070107462805,
+ "auroc.Cardiomegaly_ci": [
+  0.8215118608117303,
+  0.8423340271427686
+ ],
+ "auroc.Consolidation": 0.6613704441031238,
+ "auroc.Consolidation_ci": [
+  0.6505982338730933,
+  0.6714966687829328
+ ],
+ "auroc.Edema": 0.759258207654524,
+ "auroc.Edema_ci": [
+  0.7483976366746167,
+  0.770939607021939
+ ],
+ "auroc.Effusion": 0.7561810523884511,
+ "auroc.Effusion_ci": [
+  0.7496850774976924,
+  0.7638634580802944
+ ],
+ "auroc.Emphysema": 0.5698364693921663,
+ "auroc.Emphysema_ci": [
+  0.5492916794274114,
+  0.5896037889061027
+ ],
+ "auroc.Fibrosis": 0.6439455219173185,
+ "auroc.Fibrosis_ci": [
+  0.62675531266972,
+  0.6609675569991685
+ ],
+ "auroc.Hernia": 0.7609116133734343,
+ "auroc.Hernia_ci": [
+  0.7116588702945916,
+  0.806983805983308
+ ],
+ "auroc.Infiltration": 0.6034405119424566,
+ "auroc.Infiltration_ci": [
+  0.5963477410281183,
+  0.6113894121351608
+ ],
+ "auroc.Mass": 0.6944787431215462,
+ "auroc.Mass_ci": [
+  0.6823829454050615,
+  0.70678056528275
+ ],
+ "auroc.Nodule": 0.5725190752969214,
+ "auroc.Nodule_ci": [
+  0.5601391429547697,
+  0.5857299400793553
+ ],
+ "auroc.Pleural_Thickening": 0.6383202639589535,
+ "auroc.Pleural_Thickening_ci": [
+  0.6257778672980602,
+  0.6512228663792008
+ ],
+ "auroc.Pneumonia": 0.6077717074241108,
+ "auroc.Pneumonia_ci": [
+  0.5899614839060378,
+  0.6240296629129914
+ ],
+ "auroc.Pneumothorax": 0.601797167196906,
+ "auroc.Pneumothorax_ci": [
+  0.5842760506475206,
+  0.6193235204715594
+ ],
+ "binary.densenet_multi.f1": 0.8104164270837326,
+ "binary.densenet_multi.precision": 0.9388081352319488,
+ "binary.densenet_multi.recall": 0.7129175846409783,
+ "binary.densenet_multi.specificity": 0.6390150192106182,
+ "binary.densenet_nih.f1": 0.8243571989969685,
+ "binary.densenet_nih.precision": 0.9261107217939734,
+ "binary.densenet_nih.recall": 0.7427498763544804,
+ "binary.densenet_nih.specificity": 0.5396437303527768,
+ "binary.resnet50_multi.f1": 0.3288300913728348,
+ "binary.resnet50_multi.precision": 0.97387935805202,
+ "binary.resnet50_multi.recall": 0.19781035025403534,
+ "binary.resnet50_multi.specificity": 0.9587844917918268,
+ "cls.densenet_multi.best_threshold": 0.55,
+ "cls.densenet_multi.exact_match": 0.10982313575525812,
+ "cls.densenet_multi.f1": 0.3342284744772413,
+ "cls.densenet_multi.f1_ci": [
+  0.32914398532116906,
+  0.33966921369624303
+ ],
+ "cls.densenet_multi.macro.f1": 0.2469237656250343,
+ "cls.densenet_multi.macro.precision": 0.23752692278793355,
+ "cls.densenet_multi.macro.recall": 0.3310951726765924,
+ "cls.densenet_multi.macro.specificity": 0.8751977203934745,
+ "cls.densenet_multi.mean_auroc": 0.7034117155906928,
+ "cls.densenet_multi.per_image_f1_mean": 0.3073022888674777,
+ "cls.densenet_multi.precision": 0.2857472213950182,
+ "cls.densenet_multi.precision_ci": [
+  0.28083787886286776,
+  0.29094243570749045
+ ],
+ "cls.densenet_multi.recall": 0.4025223616016455,
+ "cls.densenet_multi.recall_ci": [
+  0.3942026339925172,
+  0.41117110687994013
+ ],
+ "cls.densenet_multi.specificity": 0.881794175955028,
+ "cls.densenet_multi.specificity_ci": [
+  0.8782113766212979,
+  0.8853612889403036
+ ],
+ "cls.densenet_nih.best_threshold": 0.55,
+ "cls.densenet_nih.exact_match": 0.09821144040790313,
+ "cls.densenet_nih.f1": 0.33951373192139006,
+ "cls.densenet_nih.f1_ci": [
+  0.33496868616497344,
+  0.3445005612736657
+ ],
+ "cls.densenet_nih.macro.f1": 0.23367502595765965,
+ "cls.densenet_nih.macro.precision": 0.1978683836582115,
+ "cls.densenet_nih.macro.recall": 0.2952229234745671,
+ "cls.densenet_nih.macro.specificity": 0.8621900378293523,
+ "cls.densenet_nih.mean_auroc": 0.6683554338060332,
+ "cls.densenet_nih.mean_auroc_vs_no_finding": 0.7645185543324676,
+ "cls.densenet_nih.per_image_f1_mean": 0.3033514732337629,
+ "cls.densenet_nih.precision": 0.2822951054973446,
+ "cls.densenet_nih.precision_ci": [
+  0.27804419053518004,
+  0.28680417652853357
+ ],
+ "cls.densenet_nih.recall": 0.42582443605461506,
+ "cls.densenet_nih.recall_ci": [
+  0.4178890980874008,
+  0.43466142991786433
+ ],
+ "cls.densenet_nih.specificity": 0.872810259883341,
+ "cls.densenet_nih.specificity_ci": [
+  0.8692984183526025,
+  0.8763310707213716
+ ],
+ "cls.resnet50_multi.best_threshold": 0.15,
+ "cls.resnet50_multi.exact_match": 0.15330226258763544,
+ "cls.resnet50_multi.f1": 0.1718703819735893,
+ "cls.resnet50_multi.f1_ci": [
+  0.1650804107179553,
+  0.178664008136994
+ ],
+ "cls.resnet50_multi.macro.f1": 0.1496322117478052,
+ "cls.resnet50_multi.macro.precision": 0.6198560787186572,
+ "cls.resnet50_multi.macro.recall": 0.09109500110805506,
+ "cls.resnet50_multi.macro.specificity": 0.9941817765436886,
+ "cls.resnet50_multi.mean_auroc": 0.7971847937466044,
+ "cls.resnet50_multi.per_image_f1_mean": 0.20648895831436462,
+ "cls.resnet50_multi.precision": 0.6801085329341318,
+ "cls.resnet50_multi.precision_ci": [
+  0.6685504604332226,
+  0.6925538376784411
+ ],
+ "cls.resnet50_multi.recall": 0.09836398327446921,
+ "cls.resnet50_multi.recall_ci": [
+  0.09400559003741722,
+  0.10260955863849379
+ ],
+ "cls.resnet50_multi.specificity": 0.9945645002567515,
+ "cls.resnet50_multi.specificity_ci": [
+  0.9942594501832588,
+  0.9948726305748492
+ ],
+ "cv.f1_cv_percent": 1.2098899829975722,
+ "cv.f1_cv_percent_ddof0": 1.0821584989114543,
+ "cv.f1_mean": 0.3394966254224662,
+ "cv.folds": [
+  {
+   "f1": 0.33489176553252437,
+   "precision": 0.27884788478847883,
+   "recall": 0.41913008185077455,
+   "specificity": 0.8726566163089173,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.3393464758304078,
+   "precision": 0.2823058950395399,
+   "recall": 0.4252741302287803,
+   "specificity": 0.8730568712846107,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.34422844885373377,
+   "precision": 0.28579697239536955,
+   "recall": 0.43269295584765755,
+   "specificity": 0.8724546184611226,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.3429629033555967,
+   "precision": 0.28350332594235034,
+   "recall": 0.4339827574502749,
+   "specificity": 0.87158128998927,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.33605353354006856,
+   "precision": 0.2809515146002001,
+   "recall": 0.41804277206280455,
+   "specificity": 0.8743022978452731,
+   "threshold": 0.55
+  }
+ ],
+ "fair.2025.age_0_24": {
+  "f1": 0.32245411113904954,
+  "n": 6782,
+  "precision": 0.27702410783720727,
+  "recall": 0.38570741097208855,
+  "specificity": 0.9034235190913708
+ },
+ "fair.2025.age_25_49": {
+  "f1": 0.3407680136319377,
+  "n": 18004,
+  "precision": 0.2899042195185089,
+  "recall": 0.4132777326739981,
+  "specificity": 0.8780616826252011
+ },
+ "fair.2025.age_50_74": {
+  "f1": 0.34917196171928216,
+  "n": 22290,
+  "precision": 0.2895775065291078,
+  "recall": 0.43965129358830146,
+  "specificity": 0.8612839059674503
+ },
+ "fair.2025.age_75_plus": {
+  "f1": 0.2797957981543295,
+  "n": 3126,
+  "precision": 0.19622693472872488,
+  "recall": 0.48734610123119015,
+  "specificity": 0.8570763956904995
+ },
+ "fair.2025.chi2_age": {
+  "df": 3,
+  "p": 6.767205253709187e-216,
+  "stat": 997.3481032617797
+ },
+ "fair.2025.max_cohen_h_age": {
+  "f1": 0.14962434875425856,
+  "precision": 0.21931110670713927,
+  "recall": 0.2053136348208109,
+  "specificity": 0.1433823273483048
+ },
+ "fair.2025.sex_F": {
+  "f1": 0.33610030477983993,
+  "n": 22558,
+  "precision": 0.2797450863117949,
+  "recall": 0.42088931641170446,
+  "specificity": 0.8768517375742723
+ },
+ "fair.2025.sex_M": {
+  "f1": 0.3421462491758793,
+  "n": 27650,
+  "precision": 0.28425815670397714,
+  "recall": 0.4296410059512382,
+  "specificity": 0.8694923399377005
+ },
+ "fair.article.age_18_40": {
+  "f1": 0.33420009905894005,
+  "n": 13846,
+  "precision": 0.28133143393210797,
+  "recall": 0.4115374841168996,
+  "specificity": 0.8812417824067429
+ },
+ "fair.article.age_41_65": {
+  "f1": 0.3481853352054061,
+  "n": 25679,
+  "precision": 0.2927090232842513,
+  "recall": 0.4296076574106386,
+  "specificity": 0.8696068731448896
+ },
+ "fair.article.age_66_plus": {
+  "f1": 0.3228201590117616,
+  "n": 7937,
+  "precision": 0.24906215147521038,
+  "recall": 0.45864451082897684,
+  "specificity": 0.8524689759576121
+ },
+ "fair.article.chi2_age": {
+  "df": 2,
+  "p": 1.787844893783062e-39,
+  "stat": 178.4396154044456
+ },
+ "fair.article.max_cohen_h_age": {
+  "f1": 0.05372971304186125,
+  "precision": 0.0982826324664301,
+  "recall": 0.09505573727855565,
+  "specificity": 0.0848073615290339
+ },
+ "fair.article.sex_F": {
+  "f1": 0.33610030477983993,
+  "n": 22558,
+  "precision": 0.2797450863117949,
+  "recall": 0.42088931641170446,
+  "specificity": 0.8768517375742723
+ },
+ "fair.article.sex_M": {
+  "f1": 0.3421462491758793,
+  "n": 27650,
+  "precision": 0.28425815670397714,
+  "recall": 0.4296410059512382,
+  "specificity": 0.8694923399377005
+ },
+ "fair.chi2_sex": {
+  "df": 1,
+  "p": 2.1165018317495458e-05,
+  "stat": 18.08147919144294
+ },
+ "fair.f1.age_18_40": 0.33420009905894005,
+ "fair.f1.age_41_65": 0.3481853352054061,
+ "fair.f1.age_66_plus": 0.3228201590117616,
+ "fair.f1.sex_F": 0.33610030477983993,
+ "fair.f1.sex_M": 0.3421462491758793,
+ "fig2.Atelectasis": 10548,
+ "fig2.Cardiomegaly": 2776,
+ "fig2.Consolidation": 4667,
+ "fig2.Edema": 2303,
+ "fig2.Effusion": 12668,
+ "fig2.Emphysema": 2516,
+ "fig2.Fibrosis": 1686,
+ "fig2.Hernia": 227,
+ "fig2.Infiltration": 14717,
+ "fig2.Mass": 5740,
+ "fig2.Nodule": 6015,
+ "fig2.Pleural_Thickening": 3385,
+ "fig2.Pneumonia": 1431,
+ "fig2.Pneumothorax": 5220,
+ "metadata_file": "Data_Entry_2017.csv",
+ "population.Atelectasis": 11559,
+ "population.Cardiomegaly": 2776,
+ "population.Consolidation": 4667,
+ "population.Edema": 2303,
+ "population.Effusion": 13317,
+ "population.Emphysema": 2516,
+ "population.Fibrosis": 1686,
+ "population.Hernia": 227,
+ "population.Infiltration": 19894,
+ "population.Mass": 5782,
+ "population.Nodule": 6331,
+ "population.Pleural_Thickening": 3385,
+ "population.Pneumonia": 1431,
+ "population.Pneumothorax": 5302,
+ "report.all_findings_mentioned": 38,
+ "report.backend": "local",
+ "report.bleu4_mean": 0.013739918057627263,
+ "report.bleu4_sd": 0.005515674157126985,
+ "report.finding_mention_recall": 0.8257722007722008,
+ "report.max_tokens": 1024,
+ "report.model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "report.n": 100,
+ "report.n_complete": 100,
+ "report.n_with_findings": 74,
+ "report.rouge_l_mean": 0.050366371811256624,
+ "report.rouge_l_sd": 0.029499515392105394,
+ "report.time_sd": 40.73996233676912,
+ "report.words_mean": 131.85,
+ "repr.chi2_pathology.df": 13,
+ "repr.chi2_pathology.p": 4.5315192016441447e-187,
+ "repr.chi2_pathology.stat": 914.217881898617,
+ "repr.chi2_sex.p": 1.29601991638668e-10,
+ "repr.chi2_sex.stat": 41.31452923000482,
+ "repr.ks_age.D": 0.03478017924208043,
+ "repr.ks_age.p": 6.986023051245787e-37,
+ "robust.f1_clean": 0.32541702007350864,
+ "robust.n_images": 2000,
+ "robust.noise_10db.degradation_pct": 52.51306927023441,
+ "robust.noise_20db.degradation_pct": 29.190534063136095,
+ "robust.noise_30db.degradation_pct": 0.5859249214400067,
+ "robust.photometric_20.degradation_pct": 5.055513945894126,
+ "robust.photometric_20_neg.degradation_pct": 1.9224631642405121,
+ "robust.photometric_40.degradation_pct": 9.763700590102884,
+ "robust.photometric_40_neg.degradation_pct": 5.3470290006488606,
+ "robust.threshold_+10.f1": 0.2875760208514335,
+ "robust.threshold_-10.f1": 0.22787416979869227,
+ "sample.largest_stratum": 9677,
+ "sample.n": 50208,
+ "sample.n_strata": 3489,
+ "sample.no_finding_share": 0.11404557042702358,
+ "sample.per_stratum_formula_n": 370,
+ "test.anova_f1.F": 1059.6029538684518,
+ "test.anova_f1.df": [
+  2,
+  12
+ ],
+ "test.anova_f1.p": 3.1866547104874934e-14,
+ "test.anova_precision.F": 6078.381810107951,
+ "test.anova_precision.df": [
+  2,
+  12
+ ],
+ "test.anova_precision.p": 9.196207172817457e-19,
+ "test.anova_recall.F": 3907.841142023089,
+ "test.anova_recall.df": [
+  2,
+  12
+ ],
+ "test.anova_recall.p": 1.298040781067876e-17,
+ "test.anova_specificity.F": 18818.635682633576,
+ "test.anova_specificity.df": [
+  2,
+  12
+ ],
+ "test.anova_specificity.p": 1.0484507207012324e-21,
+ "test.mcnemar_vs_multi.n01": 1774,
+ "test.mcnemar_vs_multi.n10": 2357,
+ "test.mcnemar_vs_multi.p": 1.1896629088029442e-19,
+ "test.mcnemar_vs_resnet.n01": 1748,
+ "test.mcnemar_vs_resnet.n10": 4514,
+ "test.mcnemar_vs_resnet.p": 7.556630304060819e-277,
+ "test.ttest_vs_multi.d": -0.012052468202476583,
+ "test.ttest_vs_multi.n": 50208,
+ "test.ttest_vs_multi.p": 0.006923489668199258,
+ "test.ttest_vs_multi.t": -2.7006136307250563,
+ "test.ttest_vs_resnet.d": 0.22369915661486248,
+ "test.ttest_vs_resnet.n": 50208,
+ "test.ttest_vs_resnet.p": 0.0,
+ "test.ttest_vs_resnet.t": 50.12458704613377,
+ "test.wilcoxon_vs_multi.p": 0.24074303642062256,
+ "test.wilcoxon_vs_resnet.p": 0.0,
+ "time.classification": 0.060413971438842494,
+ "time.classification_total_s.densenet_multi": 5154.709101676941,
+ "time.classification_total_s.densenet_nih": 3033.264678001404,
+ "time.classification_total_s.resnet50_multi": 21954.017085313797,
+ "time.gradcam": 0.21638664360938034,
+ "time.llm": 183.80917969942092,
+ "time.segmentation": 1.8769856548406245,
+ "time.total": 185.96296596930978,
+ "xai.fused.anatomical_coverage": 1.0,
+ "xai.fused.false_positive_rate": 0.48998611906119094,
+ "xai.fused.localization_accuracy": 0.16056910569105692,
+ "xai.fused.n": 984,
+ "xai.gradcam.anatomical_coverage": 0.8097259904578626,
+ "xai.gradcam.false_positive_rate": 0.8537418546337313,
+ "xai.gradcam.localization_accuracy": 0.20833333333333334,
+ "xai.gradcam.n": 984,
+ "xai.gradcampp.anatomical_coverage": 0.9073063057396854,
+ "xai.gradcampp.false_positive_rate": 0.7674584797095317,
+ "xai.gradcampp.localization_accuracy": 0.2530487804878049,
+ "xai.gradcampp.n": 984,
+ "xai.tau_table": {
+  "0.10": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7931435538244644,
+   "localization_accuracy": 0.21646341463414634,
+   "n": 984
+  },
+  "0.15": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7558765961399938,
+   "localization_accuracy": 0.21544715447154472,
+   "n": 984
+  },
+  "0.20": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7007057969043095,
+   "localization_accuracy": 0.2073170731707317,
+   "n": 984
+  },
+  "0.25": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.623856695123373,
+   "localization_accuracy": 0.18597560975609756,
+   "n": 984
+  },
+  "0.30": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.48998611906119094,
+   "localization_accuracy": 0.16056910569105692,
+   "n": 984
+  },
+  "0.35": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.320489655015986,
+   "localization_accuracy": 0.11585365853658537,
+   "n": 984
+  },
+  "0.40": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.19231221701027088,
+   "localization_accuracy": 0.07621951219512195,
+   "n": 984
+  },
+  "0.45": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.09945209209451017,
+   "localization_accuracy": 0.037601626016260166,
+   "n": 984
+  },
+  "0.50": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.05108108225932586,
+   "localization_accuracy": 0.018292682926829267,
+   "n": 984
+  }
+ }
+}

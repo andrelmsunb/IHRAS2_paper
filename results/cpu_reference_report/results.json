@@ -1,0 +1,10 @@
+{
+ "report.n": 100,
+ "report.n_complete": 100,
+ "report.bleu4_mean": 0.013739918057627263,
+ "report.rouge_l_mean": 0.050366371811256624,
+ "time.llm": 183.80917969942092,
+ "report.backend": "local",
+ "report.model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "report.max_tokens": 1024
+}

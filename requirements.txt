@@ -1,0 +1,13 @@
+numpy==2.4.6           # fixed to the reference run
+scipy==1.17.1          # fixed to the reference run
+pandas>=2.0
+scikit-learn==1.9.0    # fixed: the shuffled StratifiedGroupKFold folds depend on the version
+scikit-image>=0.21
+matplotlib>=3.7
+Pillow>=10.0
+torch>=2.0
+torchvision>=0.15
+torchxrayvision==1.5.7
+requests>=2.31          # DeepSeek API backend
+pytest>=7.0
+# optional, local LLM backend: transformers>=4.40 accelerate
