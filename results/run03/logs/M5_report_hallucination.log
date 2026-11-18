@@ -1,0 +1,12 @@
+
+===== 2026-11-14T03:12:07Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u analysis/report_hallucination.py --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+report.fid.n_complete 100
+report.fid.recall 0.8850064350064349
+report.fid.n_with_findings 74
+report.fid.hallucination_rate 0.11
+report.fid.hallucination_rate_ci (0.06254131955225126, 0.18631463027903022)
+report.fid.hallucinated_per_report 0.13
+report.fid.contradiction_rate 0.0
+report.fid.top_hallucinated {'Mass': 6, 'Pneumonia': 2, 'Fibrosis': 2, 'Effusion': 1, 'Emphysema': 1}
+===== exit=0 elapsed=1s

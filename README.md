@@ -22,6 +22,8 @@ computed values (`ARTICLE_2026`). The values printed in the final manuscript com
 from the run **run03** on Google Colab (notebooks in `colab/`; NVIDIA L4 for the
 vision stages and the 1.5B model, A100 40 GB for the 7B model, CPU for the
 statistics). All 135 reference values match run03 within the declared tolerances.
+The lightweight evidence package of run03 (results, per-item tables, figures, logs,
+and session environments) is in `results/run03/`.
 
 | Group | Main computed values (run03) |
 |---|---|

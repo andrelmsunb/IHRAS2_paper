@@ -1,0 +1,22 @@
+
+===== 2026-11-13T16:38:45Z track=B session=20261113_154133 gpu=NVIDIA L4
+$ /usr/bin/python3 -u run_all.py --nih-dir /content/nih --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B5_timing --workers 11 --device cuda --stages sampling,timing --llm-backend local --llm-model deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --llm-max-tokens 1024
+== stage sampling
+sampling: {'n': 50208, 'n_strata': 3489, 'largest_stratum': 9677, 'formula_n_largest': 369.5285482537056, 'formula_n_largest_ceil': 370} {'repr.ks_age.D': 0.03478017924208043, 'repr.ks_age.p': 6.986023051245868e-37, 'repr.chi2_sex.stat': 41.31452923000482, 'repr.chi2_sex.p': 1.29601991638668e-10, 'repr.chi2_pathology.stat': 914.217881898617, 'repr.chi2_pathology.p': 4.5315192016441447e-187, 'repr.chi2_pathology.df': 13}
+== stage timing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `tokenizer_class` is `LlamaTokenizerFast` but `tokenizer.json` is ByteLevel; loading `TokenizersBackend`. Set `tokenizer_class` to `TokenizersBackend` in `tokenizer_config.json`.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/339 [00:00<01:51,  3.03it/s]
+Loading weights:  26%|██▌       | 88/339 [00:00<00:00, 252.59it/s]
+Loading weights:  40%|████      | 136/339 [00:00<00:00, 312.00it/s]
+Loading weights:  53%|█████▎    | 181/339 [00:00<00:00, 348.96it/s]
+Loading weights:  67%|██████▋   | 226/339 [00:00<00:00, 363.87it/s]
+Loading weights:  79%|███████▉  | 269/339 [00:00<00:00, 359.44it/s]
+Loading weights:  91%|█████████ | 309/339 [00:00<00:00, 365.79it/s]
+Loading weights: 100%|██████████| 339/339 [00:01<00:00, 320.55it/s]
+timing: {'timing.classification_s': 0.009152507305145264, 'timing.gradcam_s': 0.061248589038848875, 'timing.segmentation_s': 0.09977537250518799, 'timing.llm_s': 32.46163294315338, 'timing.total_s': 32.63180941200257}
+results in /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B5_timing
+===== exit=0 elapsed=450s

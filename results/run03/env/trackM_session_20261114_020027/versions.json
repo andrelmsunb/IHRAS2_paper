@@ -1,0 +1,17 @@
+{
+ "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+ "torch": "2.14.1+cpu",
+ "cuda": null,
+ "cudnn": null,
+ "gpu": null,
+ "vcpus": 2,
+ "torchxrayvision": "1.5.7",
+ "transformers": "5.22.1",
+ "numpy": "2.4.6",
+ "scipy": "1.17.1",
+ "scikit-learn": "1.9.0",
+ "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+ "track": "M",
+ "session_utc": "20261114_020027"
+}

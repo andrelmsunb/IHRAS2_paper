@@ -1,0 +1,1255 @@
+{
+ "ablation.arms": [
+  "plain",
+  "crispe",
+  "crispe_snomed"
+ ],
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.bleu4_mean": 0.015631307381274974,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.complete_rate": 1.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.hallucinated_per_report": 0.165,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.hallucination_rate": 0.145,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.hallucination_rate_ci": [
+  0.1028928513530641,
+  0.20048781284894374
+ ],
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.n": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.recall": 0.7651681651681651,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.rouge_l_mean": 0.05906975913370701,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe.words_mean": 194.665,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.bleu4_mean": 0.01787443173143659,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.complete_rate": 1.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.hallucinated_per_report": 0.125,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.hallucination_rate": 0.11,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.hallucination_rate_ci": [
+  0.07377190160716048,
+  0.16092798300912986
+ ],
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.n": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.recall": 0.8835331335331335,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.rouge_l_mean": 0.06203420691388395,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_snomed.words_mean": 183.04,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.hallucination_mcnemar_p": 0.3240086000878364,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.hallucination_mcnemar_p_holm": 0.9720258002635092,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.hallucination_n01": 22,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.hallucination_n10": 15,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.n_pairs": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.recall_wilcoxon_p": 0.0011830848080791032,
+ "ablation.deepseek_r1_distill_qwen_1_5b.crispe_vs_crispe_snomed.recall_wilcoxon_p_holm": 0.0023661696161582065,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.bleu4_mean": 0.018231644233522398,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.complete_rate": 1.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.hallucinated_per_report": 0.145,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.hallucination_rate": 0.135,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.hallucination_rate_ci": [
+  0.09446507976920289,
+  0.18929250455117141
+ ],
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.n": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.recall": 0.916000666000666,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.rouge_l_mean": 0.0629736487721206,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain.words_mean": 198.035,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.hallucination_mcnemar_p": 0.887724827340783,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.hallucination_mcnemar_p_holm": 1.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.hallucination_n01": 24,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.hallucination_n10": 26,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.n_pairs": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.recall_wilcoxon_p": 1.1723687949640335e-06,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe.recall_wilcoxon_p_holm": 3.5171063848921002e-06,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.hallucination_mcnemar_p": 0.5223973804968411,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.hallucination_mcnemar_p_holm": 1.0,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.hallucination_n01": 22,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.hallucination_n10": 17,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.n_pairs": 200,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.recall_wilcoxon_p": 0.10366660222287581,
+ "ablation.deepseek_r1_distill_qwen_1_5b.plain_vs_crispe_snomed.recall_wilcoxon_p_holm": 0.10366660222287581,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.bleu4_mean": 0.021883572495591076,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.complete_rate": 0.995,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.hallucinated_per_report": 0.33668341708542715,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.hallucination_rate": 0.271356783919598,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.hallucination_rate_ci": [
+  0.2143405086670257,
+  0.3370335684453616
+ ],
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.n": 200,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.recall": 0.8640006706908114,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.rouge_l_mean": 0.07539792513036206,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe.words_mean": 150.46733668341707,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.bleu4_mean": 0.020682603607611646,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.complete_rate": 1.0,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.hallucinated_per_report": 0.1,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.hallucination_rate": 0.1,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.hallucination_rate_ci": [
+  0.06566994117157123,
+  0.14940686356308552
+ ],
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.n": 200,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.recall": 0.9352480852480852,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.rouge_l_mean": 0.07793407642771923,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_snomed.words_mean": 149.23,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.hallucination_mcnemar_p": 8.219663963332515e-06,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.hallucination_mcnemar_p_holm": 2.4658991889997546e-05,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.hallucination_n01": 46,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.hallucination_n10": 12,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.n_pairs": 199,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.recall_wilcoxon_p": 0.020712496274380744,
+ "ablation.deepseek_r1_distill_qwen_7b.crispe_vs_crispe_snomed.recall_wilcoxon_p_holm": 0.04142499254876149,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.bleu4_mean": 0.024935366591014977,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.complete_rate": 1.0,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.contradiction_rate": 0.0,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.hallucinated_per_report": 0.35,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.hallucination_rate": 0.255,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.hallucination_rate_ci": [
+  0.19960402982802747,
+  0.3196305130719498
+ ],
+ "ablation.deepseek_r1_distill_qwen_7b.plain.n": 200,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.recall": 0.953996003996004,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.rouge_l_mean": 0.08938532005610915,
+ "ablation.deepseek_r1_distill_qwen_7b.plain.words_mean": 131.06,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.hallucination_mcnemar_p": 0.7981526273057179,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.hallucination_mcnemar_p_holm": 0.7981526273057179,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.hallucination_n01": 29,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.hallucination_n10": 32,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.n_pairs": 199,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.recall_wilcoxon_p": 0.0012519215483555285,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe.recall_wilcoxon_p_holm": 0.0037557646450665856,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.hallucination_mcnemar_p": 2.2475594023241285e-05,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.hallucination_mcnemar_p_holm": 4.495118804648257e-05,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.hallucination_n01": 42,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.hallucination_n10": 11,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.n_pairs": 200,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.recall_wilcoxon_p": 0.16426757133586756,
+ "ablation.deepseek_r1_distill_qwen_7b.plain_vs_crispe_snomed.recall_wilcoxon_p_holm": 0.16426757133586756,
+ "ablation.dtype": "float32",
+ "ablation.max_tokens": 1024,
+ "ablation.models": [
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+ ],
+ "ablation.n_images": 200,
+ "auroc.Atelectasis": 0.6544415704229217,
+ "auroc.Atelectasis_ci": [
+  0.6455793097383226,
+  0.6631226759835133
+ ],
+ "auroc.Cardiomegaly": 0.8327027881078838,
+ "auroc.Cardiomegaly_ci": [
+  0.8215083929522431,
+  0.84232956914665
+ ],
+ "auroc.Consolidation": 0.6613711098606372,
+ "auroc.Consolidation_ci": [
+  0.6505978269268174,
+  0.671498119847237
+ ],
+ "auroc.Edema": 0.7592533085025033,
+ "auroc.Edema_ci": [
+  0.7483932727141722,
+  0.7709342136908269
+ ],
+ "auroc.Effusion": 0.7561771212064883,
+ "auroc.Effusion_ci": [
+  0.7496813088858847,
+  0.7638601635149311
+ ],
+ "auroc.Emphysema": 0.5698278022251151,
+ "auroc.Emphysema_ci": [
+  0.5492793918308602,
+  0.5895930887829907
+ ],
+ "auroc.Fibrosis": 0.6439461208800714,
+ "auroc.Fibrosis_ci": [
+  0.6267553932748327,
+  0.6609725228574657
+ ],
+ "auroc.Hernia": 0.7609102912851377,
+ "auroc.Hernia_ci": [
+  0.7116576630559038,
+  0.8069851468364257
+ ],
+ "auroc.Infiltration": 0.6034382834280083,
+ "auroc.Infiltration_ci": [
+  0.5963469421988694,
+  0.6113863153873694
+ ],
+ "auroc.Mass": 0.6944658732004442,
+ "auroc.Mass_ci": [
+  0.6823704008612904,
+  0.70676706768174
+ ],
+ "auroc.Nodule": 0.5725102291149836,
+ "auroc.Nodule_ci": [
+  0.5601305567585543,
+  0.5857221780095012
+ ],
+ "auroc.Pleural_Thickening": 0.6383232324908434,
+ "auroc.Pleural_Thickening_ci": [
+  0.6257808248231951,
+  0.6512273628366897
+ ],
+ "auroc.Pneumonia": 0.6077664638626135,
+ "auroc.Pneumonia_ci": [
+  0.589954831587099,
+  0.6240262318546821
+ ],
+ "auroc.Pneumothorax": 0.6017998967455604,
+ "auroc.Pneumothorax_ci": [
+  0.5842789998508763,
+  0.6193240299193353
+ ],
+ "binary.densenet_multi.f1": 0.8104516706062735,
+ "binary.densenet_multi.precision": 0.938785779830092,
+ "binary.densenet_multi.recall": 0.7129850276516344,
+ "binary.densenet_multi.specificity": 0.6388403772266853,
+ "binary.densenet_nih.f1": 0.8243571989969685,
+ "binary.densenet_nih.precision": 0.9261107217939734,
+ "binary.densenet_nih.recall": 0.7427498763544804,
+ "binary.densenet_nih.specificity": 0.5396437303527768,
+ "binary.resnet50_multi.f1": 0.3285740982993833,
+ "binary.resnet50_multi.precision": 0.9737483385024369,
+ "binary.resnet50_multi.recall": 0.19763050222561934,
+ "binary.resnet50_multi.specificity": 0.9586098498078938,
+ "cls.densenet_multi.best_threshold": 0.55,
+ "cls.densenet_multi.exact_match": 0.10980321861057998,
+ "cls.densenet_multi.f1": 0.3343182967249031,
+ "cls.densenet_multi.f1_ci": [
+  0.3292529835362955,
+  0.3397310899085247
+ ],
+ "cls.densenet_multi.macro.f1": 0.24698290223014144,
+ "cls.densenet_multi.macro.precision": 0.23755546029158728,
+ "cls.densenet_multi.macro.recall": 0.3311580169459201,
+ "cls.densenet_multi.macro.specificity": 0.8751878318415807,
+ "cls.densenet_multi.mean_auroc": 0.7034087967974604,
+ "cls.densenet_multi.per_image_f1_mean": 0.30736174427468643,
+ "cls.densenet_multi.precision": 0.2858103370441164,
+ "cls.densenet_multi.precision_ci": [
+  0.28092328346824313,
+  0.29100713353277735
+ ],
+ "cls.densenet_multi.recall": 0.4026576814300599,
+ "cls.densenet_multi.recall_ci": [
+  0.39440144963469953,
+  0.41130357761546377
+ ],
+ "cls.densenet_multi.specificity": 0.8817909963705043,
+ "cls.densenet_multi.specificity_ci": [
+  0.8782083601148611,
+  0.8853599149790162
+ ],
+ "cls.densenet_nih.best_threshold": 0.55,
+ "cls.densenet_nih.exact_match": 0.09821144040790313,
+ "cls.densenet_nih.f1": 0.3395106687167867,
+ "cls.densenet_nih.f1_ci": [
+  0.3349453511526542,
+  0.3444974708680922
+ ],
+ "cls.densenet_nih.macro.f1": 0.23368504932613643,
+ "cls.densenet_nih.macro.precision": 0.19788817630801217,
+ "cls.densenet_nih.macro.recall": 0.29519825058643473,
+ "cls.densenet_nih.macro.specificity": 0.862211048351124,
+ "cls.densenet_nih.mean_auroc": 0.6683524350952296,
+ "cls.densenet_nih.per_image_f1_mean": 0.30333934763009807,
+ "cls.densenet_nih.precision": 0.2823087137525122,
+ "cls.densenet_nih.precision_ci": [
+  0.2780821725228176,
+  0.28679166671243866
+ ],
+ "cls.densenet_nih.recall": 0.42578384010609077,
+ "cls.densenet_nih.recall_ci": [
+  0.41787484856439705,
+  0.4346075616651779
+ ],
+ "cls.densenet_nih.specificity": 0.872830927182745,
+ "cls.densenet_nih.specificity_ci": [
+  0.8693252505798502,
+  0.8763627736746302
+ ],
+ "cls.resnet50_multi.best_threshold": 0.15,
+ "cls.resnet50_multi.exact_match": 0.15324251115360102,
+ "cls.resnet50_multi.f1": 0.1718075736259059,
+ "cls.resnet50_multi.f1_ci": [
+  0.16495549351339275,
+  0.17852104680334935
+ ],
+ "cls.resnet50_multi.macro.f1": 0.14962121353842778,
+ "cls.resnet50_multi.macro.precision": 0.6195051502653882,
+ "cls.resnet50_multi.macro.recall": 0.0911159735416459,
+ "cls.resnet50_multi.macro.specificity": 0.9941848527602989,
+ "cls.resnet50_multi.mean_auroc": 0.797146967480664,
+ "cls.resnet50_multi.per_image_f1_mean": 0.2064221884579198,
+ "cls.resnet50_multi.precision": 0.6800823661549982,
+ "cls.resnet50_multi.precision_ci": [
+  0.6686181869425188,
+  0.6926351140829584
+ ],
+ "cls.resnet50_multi.recall": 0.09832338732594487,
+ "cls.resnet50_multi.recall_ci": [
+  0.09400524614900213,
+  0.10259649532916909
+ ],
+ "cls.resnet50_multi.specificity": 0.9945660900490133,
+ "cls.resnet50_multi.specificity_ci": [
+  0.994259404604865,
+  0.9948689268184501
+ ],
+ "cv.f1_cv_percent": 1.2088560494338974,
+ "cv.f1_cv_percent_ddof0": 1.0812337206184164,
+ "cv.f1_mean": 0.33949351850363546,
+ "cv.folds": [
+  {
+   "f1": 0.3349189189189189,
+   "precision": 0.27888553810145383,
+   "recall": 0.41913008185077455,
+   "specificity": 0.8726804574316753,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.33934745030250646,
+   "precision": 0.2823370786516854,
+   "recall": 0.42520644375253824,
+   "specificity": 0.8730966080681565,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.34420250992169904,
+   "precision": 0.2857906220777486,
+   "recall": 0.43262554769127065,
+   "specificity": 0.8724705208838567,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.3429813031465436,
+   "precision": 0.28352847259180414,
+   "recall": 0.4339827574502749,
+   "specificity": 0.8715971863450304,
+   "threshold": 0.55
+  },
+  {
+   "f1": 0.33601741022850923,
+   "precision": 0.28093158660844253,
+   "recall": 0.4179750947482404,
+   "specificity": 0.8743102488669794,
+   "threshold": 0.55
+  }
+ ],
+ "ext.densenet_chex.auroc.Atelectasis": 0.5702446979645531,
+ "ext.densenet_chex.auroc.Cardiomegaly": 0.5900016375634732,
+ "ext.densenet_chex.auroc.Consolidation": 0.6673751416599072,
+ "ext.densenet_chex.auroc.Edema": 0.7099587388068993,
+ "ext.densenet_chex.auroc.Effusion": 0.696251770976972,
+ "ext.densenet_chex.auroc.Pneumonia": 0.5610647836722142,
+ "ext.densenet_chex.auroc.Pneumothorax": 0.642747374182711,
+ "ext.densenet_chex.delta_mean_auroc": -0.062266873411696566,
+ "ext.densenet_chex.delta_mean_auroc_ci": [
+  -0.06789093460369873,
+  -0.05686487686350043
+ ],
+ "ext.densenet_chex.f1": 0.25323373493975904,
+ "ext.densenet_chex.f1_ci": [
+  0.24807362831714,
+  0.2582893143435115
+ ],
+ "ext.densenet_chex.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "ext.densenet_chex.mean_auroc": 0.6339491635466759,
+ "ext.densenet_chex.mean_auroc_ci": [
+  0.6281121801176999,
+  0.63913445297547
+ ],
+ "ext.densenet_chex.precision": 0.15649216437246483,
+ "ext.densenet_chex.recall": 0.6632418650443036,
+ "ext.densenet_chex.ref_nih.auroc.Atelectasis": 0.6544415704229217,
+ "ext.densenet_chex.ref_nih.auroc.Cardiomegaly": 0.8327027881078838,
+ "ext.densenet_chex.ref_nih.auroc.Consolidation": 0.6613711098606372,
+ "ext.densenet_chex.ref_nih.auroc.Edema": 0.7592533085025033,
+ "ext.densenet_chex.ref_nih.auroc.Effusion": 0.7561771212064883,
+ "ext.densenet_chex.ref_nih.auroc.Pneumonia": 0.6077664638626135,
+ "ext.densenet_chex.ref_nih.auroc.Pneumothorax": 0.6017998967455604,
+ "ext.densenet_chex.ref_nih.f1": 0.3639655764487965,
+ "ext.densenet_chex.ref_nih.f1_ci": [
+  0.3571035644405733,
+  0.37132483906323704
+ ],
+ "ext.densenet_chex.ref_nih.mean_auroc": 0.6962160369583724,
+ "ext.densenet_chex.ref_nih.mean_auroc_ci": [
+  0.6913332508421652,
+  0.7007430111999425
+ ],
+ "ext.densenet_chex.ref_nih.precision": 0.3096098010055945,
+ "ext.densenet_chex.ref_nih.recall": 0.4414712341907959,
+ "ext.densenet_chex.ref_nih.specificity": 0.8749498946585301,
+ "ext.densenet_chex.specificity": 0.5458804590771639,
+ "ext.densenet_chex.weights": "densenet121-res224-chex",
+ "ext.densenet_mimic_ch.auroc.Atelectasis": 0.5901067874812279,
+ "ext.densenet_mimic_ch.auroc.Cardiomegaly": 0.5527483330603301,
+ "ext.densenet_mimic_ch.auroc.Consolidation": 0.6138573958792772,
+ "ext.densenet_mimic_ch.auroc.Edema": 0.7274024301697486,
+ "ext.densenet_mimic_ch.auroc.Effusion": 0.7142434849832424,
+ "ext.densenet_mimic_ch.auroc.Pneumonia": 0.5473015307317045,
+ "ext.densenet_mimic_ch.auroc.Pneumothorax": 0.5764987074458681,
+ "ext.densenet_mimic_ch.delta_mean_auroc": -0.0787647984224582,
+ "ext.densenet_mimic_ch.delta_mean_auroc_ci": [
+  -0.08350428374298989,
+  -0.07401436212232045
+ ],
+ "ext.densenet_mimic_ch.f1": 0.2679683954284771,
+ "ext.densenet_mimic_ch.f1_ci": [
+  0.2629471323298551,
+  0.2724333118627724
+ ],
+ "ext.densenet_mimic_ch.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "ext.densenet_mimic_ch.mean_auroc": 0.6174512385359142,
+ "ext.densenet_mimic_ch.mean_auroc_ci": [
+  0.612238537550917,
+  0.6223589823930383
+ ],
+ "ext.densenet_mimic_ch.precision": 0.16838536974261584,
+ "ext.densenet_mimic_ch.recall": 0.655820059071517,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Atelectasis": 0.6544415704229217,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Cardiomegaly": 0.8327027881078838,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Consolidation": 0.6613711098606372,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Edema": 0.7592533085025033,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Effusion": 0.7561771212064883,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Pneumonia": 0.6077664638626135,
+ "ext.densenet_mimic_ch.ref_nih.auroc.Pneumothorax": 0.6017998967455604,
+ "ext.densenet_mimic_ch.ref_nih.f1": 0.3639655764487965,
+ "ext.densenet_mimic_ch.ref_nih.f1_ci": [
+  0.3571035644405733,
+  0.37132483906323704
+ ],
+ "ext.densenet_mimic_ch.ref_nih.mean_auroc": 0.6962160369583724,
+ "ext.densenet_mimic_ch.ref_nih.mean_auroc_ci": [
+  0.6913332508421652,
+  0.7007430111999425
+ ],
+ "ext.densenet_mimic_ch.ref_nih.precision": 0.3096098010055945,
+ "ext.densenet_mimic_ch.ref_nih.recall": 0.4414712341907959,
+ "ext.densenet_mimic_ch.ref_nih.specificity": 0.8749498946585301,
+ "ext.densenet_mimic_ch.specificity": 0.5885621931548889,
+ "ext.densenet_mimic_ch.weights": "densenet121-res224-mimic_ch",
+ "ext.densenet_mimic_nb.auroc.Atelectasis": 0.5819460520128333,
+ "ext.densenet_mimic_nb.auroc.Cardiomegaly": 0.5725324420143649,
+ "ext.densenet_mimic_nb.auroc.Consolidation": 0.6029713995230268,
+ "ext.densenet_mimic_nb.auroc.Edema": 0.7406653139085204,
+ "ext.densenet_mimic_nb.auroc.Effusion": 0.7050964604180128,
+ "ext.densenet_mimic_nb.auroc.Pneumonia": 0.5370554754623027,
+ "ext.densenet_mimic_nb.auroc.Pneumothorax": 0.5970788357525396,
+ "ext.densenet_mimic_nb.delta_mean_auroc": -0.0765951828024295,
+ "ext.densenet_mimic_nb.delta_mean_auroc_ci": [
+  -0.08113707463138736,
+  -0.07196957049444598
+ ],
+ "ext.densenet_mimic_nb.f1": 0.2602851103040815,
+ "ext.densenet_mimic_nb.f1_ci": [
+  0.2554118845253929,
+  0.264899100269996
+ ],
+ "ext.densenet_mimic_nb.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "ext.densenet_mimic_nb.mean_auroc": 0.6196208541559429,
+ "ext.densenet_mimic_nb.mean_auroc_ci": [
+  0.6144935188702223,
+  0.6245190729413871
+ ],
+ "ext.densenet_mimic_nb.precision": 0.16170726032597382,
+ "ext.densenet_mimic_nb.recall": 0.6667255698886729,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Atelectasis": 0.6544415704229217,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Cardiomegaly": 0.8327027881078838,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Consolidation": 0.6613711098606372,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Edema": 0.7592533085025033,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Effusion": 0.7561771212064883,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Pneumonia": 0.6077664638626135,
+ "ext.densenet_mimic_nb.ref_nih.auroc.Pneumothorax": 0.6017998967455604,
+ "ext.densenet_mimic_nb.ref_nih.f1": 0.3639655764487965,
+ "ext.densenet_mimic_nb.ref_nih.f1_ci": [
+  0.3571035644405733,
+  0.37132483906323704
+ ],
+ "ext.densenet_mimic_nb.ref_nih.mean_auroc": 0.6962160369583724,
+ "ext.densenet_mimic_nb.ref_nih.mean_auroc_ci": [
+  0.6913332508421652,
+  0.7007430111999425
+ ],
+ "ext.densenet_mimic_nb.ref_nih.precision": 0.3096098010055945,
+ "ext.densenet_mimic_nb.ref_nih.recall": 0.4414712341907959,
+ "ext.densenet_mimic_nb.ref_nih.specificity": 0.8749498946585301,
+ "ext.densenet_mimic_nb.specificity": 0.5609489390494575,
+ "ext.densenet_mimic_nb.weights": "densenet121-res224-mimic_nb",
+ "ext.densenet_pc.auroc.Atelectasis": 0.6453882281244963,
+ "ext.densenet_pc.auroc.Cardiomegaly": 0.7878508116336301,
+ "ext.densenet_pc.auroc.Consolidation": 0.6415037976384729,
+ "ext.densenet_pc.auroc.Edema": 0.7533247725825869,
+ "ext.densenet_pc.auroc.Effusion": 0.7634254963319623,
+ "ext.densenet_pc.auroc.Emphysema": 0.6017281772734346,
+ "ext.densenet_pc.auroc.Fibrosis": 0.41337435176950466,
+ "ext.densenet_pc.auroc.Hernia": 0.8533822588266361,
+ "ext.densenet_pc.auroc.Infiltration": 0.5922235457994094,
+ "ext.densenet_pc.auroc.Mass": 0.6334445781627723,
+ "ext.densenet_pc.auroc.Nodule": 0.5603044467215416,
+ "ext.densenet_pc.auroc.Pleural_Thickening": 0.5663784614430453,
+ "ext.densenet_pc.auroc.Pneumonia": 0.6017542979689925,
+ "ext.densenet_pc.auroc.Pneumothorax": 0.6519651472832091,
+ "ext.densenet_pc.delta_mean_auroc": -0.020777551412394235,
+ "ext.densenet_pc.delta_mean_auroc_ci": [
+  -0.025846477020210465,
+  -0.01607605800758923
+ ],
+ "ext.densenet_pc.f1": 0.29671589575336815,
+ "ext.densenet_pc.f1_ci": [
+  0.29210010430864414,
+  0.3017824192932223
+ ],
+ "ext.densenet_pc.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Emphysema",
+  "Fibrosis",
+  "Hernia",
+  "Infiltration",
+  "Mass",
+  "Nodule",
+  "Pleural_Thickening",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "ext.densenet_pc.mean_auroc": 0.6475748836828353,
+ "ext.densenet_pc.mean_auroc_ci": [
+  0.6432771442329812,
+  0.6518435415982415
+ ],
+ "ext.densenet_pc.precision": 0.2230564829324794,
+ "ext.densenet_pc.recall": 0.4430100542632512,
+ "ext.densenet_pc.ref_nih.auroc.Atelectasis": 0.6544415704229217,
+ "ext.densenet_pc.ref_nih.auroc.Cardiomegaly": 0.8327027881078838,
+ "ext.densenet_pc.ref_nih.auroc.Consolidation": 0.6613711098606372,
+ "ext.densenet_pc.ref_nih.auroc.Edema": 0.7592533085025033,
+ "ext.densenet_pc.ref_nih.auroc.Effusion": 0.7561771212064883,
+ "ext.densenet_pc.ref_nih.auroc.Emphysema": 0.5698278022251151,
+ "ext.densenet_pc.ref_nih.auroc.Fibrosis": 0.6439461208800714,
+ "ext.densenet_pc.ref_nih.auroc.Hernia": 0.7609102912851377,
+ "ext.densenet_pc.ref_nih.auroc.Infiltration": 0.6034382834280083,
+ "ext.densenet_pc.ref_nih.auroc.Mass": 0.6944658732004442,
+ "ext.densenet_pc.ref_nih.auroc.Nodule": 0.5725102291149836,
+ "ext.densenet_pc.ref_nih.auroc.Pleural_Thickening": 0.6383232324908434,
+ "ext.densenet_pc.ref_nih.auroc.Pneumonia": 0.6077664638626135,
+ "ext.densenet_pc.ref_nih.auroc.Pneumothorax": 0.6017998967455604,
+ "ext.densenet_pc.ref_nih.f1": 0.3395106687167867,
+ "ext.densenet_pc.ref_nih.f1_ci": [
+  0.3349453511526542,
+  0.3444974708680922
+ ],
+ "ext.densenet_pc.ref_nih.mean_auroc": 0.6683524350952296,
+ "ext.densenet_pc.ref_nih.mean_auroc_ci": [
+  0.6634170162766357,
+  0.672944873965442
+ ],
+ "ext.densenet_pc.ref_nih.precision": 0.2823087137525122,
+ "ext.densenet_pc.ref_nih.recall": 0.42578384010609077,
+ "ext.densenet_pc.ref_nih.specificity": 0.872830927182745,
+ "ext.densenet_pc.specificity": 0.8187128087972745,
+ "ext.densenet_pc.weights": "densenet121-res224-pc",
+ "fair.2025.age_0_24": {
+  "f1": 0.32250276632129565,
+  "n": 6782,
+  "precision": 0.27709593777009506,
+  "recall": 0.38570741097208855,
+  "specificity": 0.9034581467288425
+ },
+ "fair.2025.age_25_49": {
+  "f1": 0.3407783829839029,
+  "n": 18004,
+  "precision": 0.28991922957440197,
+  "recall": 0.4132777326739981,
+  "specificity": 0.8780705731736591
+ },
+ "fair.2025.age_50_74": {
+  "f1": 0.349150687379248,
+  "n": 22290,
+  "precision": 0.28957264323953835,
+  "recall": 0.43959505061867266,
+  "specificity": 0.8612983725135623
+ },
+ "fair.2025.age_75_plus": {
+  "f1": 0.279736764561438,
+  "n": 3126,
+  "precision": 0.1962243351247072,
+  "recall": 0.48700410396716826,
+  "specificity": 0.8571743388834476
+ },
+ "fair.2025.chi2_age": {
+  "df": 3,
+  "p": 6.767205253709187e-216,
+  "stat": 997.3481032617797
+ },
+ "fair.2025.max_cohen_h_age": {
+  "f1": 0.1497112326898744,
+  "precision": 0.2193507346135315,
+  "recall": 0.2046294151642134,
+  "specificity": 0.14321968575256827
+ },
+ "fair.2025.sex_F": {
+  "f1": 0.33608801774231517,
+  "n": 22558,
+  "precision": 0.2797417704809834,
+  "recall": 0.4208582865299283,
+  "specificity": 0.8768587901334697
+ },
+ "fair.2025.sex_M": {
+  "f1": 0.34215052941401325,
+  "n": 27650,
+  "precision": 0.28428507908276696,
+  "recall": 0.4295930120944519,
+  "specificity": 0.869524184489966
+ },
+ "fair.article.age_18_40": {
+  "f1": 0.33422768925947327,
+  "n": 13846,
+  "precision": 0.2813705389720958,
+  "recall": 0.4115374841168996,
+  "specificity": 0.8812647486062388
+ },
+ "fair.article.age_41_65": {
+  "f1": 0.3481756838660148,
+  "n": 25679,
+  "precision": 0.2927069533611875,
+  "recall": 0.429582730943716,
+  "specificity": 0.8696131351209188
+ },
+ "fair.article.age_66_plus": {
+  "f1": 0.3227735787052251,
+  "n": 7937,
+  "precision": 0.24906177097068669,
+  "recall": 0.4584578043315907,
+  "specificity": 0.8525287333426289
+ },
+ "fair.article.chi2_age": {
+  "df": 2,
+  "p": 1.7878448937830622e-39,
+  "stat": 178.4396154044456
+ },
+ "fair.article.max_cohen_h_age": {
+  "f1": 0.05380908113476823,
+  "precision": 0.09827896308089312,
+  "recall": 0.09468103457863952,
+  "specificity": 0.08470983828712653
+ },
+ "fair.article.sex_F": {
+  "f1": 0.33608801774231517,
+  "n": 22558,
+  "precision": 0.2797417704809834,
+  "recall": 0.4208582865299283,
+  "specificity": 0.8768587901334697
+ },
+ "fair.article.sex_M": {
+  "f1": 0.34215052941401325,
+  "n": 27650,
+  "precision": 0.28428507908276696,
+  "recall": 0.4295930120944519,
+  "specificity": 0.869524184489966
+ },
+ "fair.chi2_sex": {
+  "df": 1,
+  "p": 2.1165018317495458e-05,
+  "stat": 18.08147919144294
+ },
+ "fair.f1.age_18_40": 0.33422768925947327,
+ "fair.f1.age_41_65": 0.3481756838660148,
+ "fair.f1.age_66_plus": 0.3227735787052251,
+ "fair.f1.sex_F": 0.33608801774231517,
+ "fair.f1.sex_M": 0.34215052941401325,
+ "fig2.Atelectasis": 10548,
+ "fig2.Cardiomegaly": 2776,
+ "fig2.Consolidation": 4667,
+ "fig2.Edema": 2303,
+ "fig2.Effusion": 12668,
+ "fig2.Emphysema": 2516,
+ "fig2.Fibrosis": 1686,
+ "fig2.Hernia": 227,
+ "fig2.Infiltration": 14717,
+ "fig2.Mass": 5740,
+ "fig2.Nodule": 6015,
+ "fig2.Pleural_Thickening": 3385,
+ "fig2.Pneumonia": 1431,
+ "fig2.Pneumothorax": 5220,
+ "metadata_file": "Data_Entry_2017.csv",
+ "population.Atelectasis": 11559,
+ "population.Cardiomegaly": 2776,
+ "population.Consolidation": 4667,
+ "population.Edema": 2303,
+ "population.Effusion": 13317,
+ "population.Emphysema": 2516,
+ "population.Fibrosis": 1686,
+ "population.Hernia": 227,
+ "population.Infiltration": 19894,
+ "population.Mass": 5782,
+ "population.Nodule": 6331,
+ "population.Pleural_Thickening": 3385,
+ "population.Pneumonia": 1431,
+ "population.Pneumothorax": 5302,
+ "report.all_findings_mentioned": 61,
+ "report.backend": "local",
+ "report.bleu4_mean": 0.017877001298002983,
+ "report.bleu4_sd": 0.011917549909468807,
+ "report.finding_mention_recall": 0.8877091377091377,
+ "report.max_tokens": 1024,
+ "report.model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "report.n": 100,
+ "report.n_complete": 100,
+ "report.n_with_findings": 74,
+ "report.n_with_region": 74,
+ "report.rouge_l_mean": 0.0611736375777068,
+ "report.rouge_l_sd": 0.037868812644571405,
+ "report.time_sd": 6.806428038250177,
+ "report.words_mean": 189.36,
+ "repr.chi2_pathology.df": 13,
+ "repr.chi2_pathology.p": 4.5315192016441447e-187,
+ "repr.chi2_pathology.stat": 914.217881898617,
+ "repr.chi2_sex.p": 1.29601991638668e-10,
+ "repr.chi2_sex.stat": 41.31452923000482,
+ "repr.ks_age.D": 0.03478017924208043,
+ "repr.ks_age.p": 6.986023051245868e-37,
+ "robust.f1_clean": 0.3253710247349823,
+ "robust.n_images": 2000,
+ "robust.noise_10db.degradation_pct": 52.506356387745036,
+ "robust.noise_20db.degradation_pct": 29.180524243241138,
+ "robust.noise_30db.degradation_pct": 0.612962189851844,
+ "robust.photometric_20.degradation_pct": 5.042092333503088,
+ "robust.photometric_20_neg.degradation_pct": 1.9085986552165,
+ "robust.photometric_40.degradation_pct": 9.807457145524626,
+ "robust.photometric_40_neg.degradation_pct": 5.347912022575169,
+ "robust.threshold_+10.f1": 0.2875760208514335,
+ "robust.threshold_-10.f1": 0.22788590258469776,
+ "sample.largest_stratum": 9677,
+ "sample.n": 50208,
+ "sample.n_strata": 3489,
+ "sample.per_stratum_formula_n": 370,
+ "split.densenet_chex.auroc.Atelectasis": 0.5658932425392345,
+ "split.densenet_chex.auroc.Cardiomegaly": 0.6229199389779225,
+ "split.densenet_chex.auroc.Consolidation": 0.6743635073164759,
+ "split.densenet_chex.auroc.Edema": 0.6967274850546709,
+ "split.densenet_chex.auroc.Effusion": 0.6730433686303847,
+ "split.densenet_chex.auroc.Pneumonia": 0.5855315840580008,
+ "split.densenet_chex.auroc.Pneumothorax": 0.6411491182905107,
+ "split.densenet_chex.f1": 0.18249412655657007,
+ "split.densenet_chex.f1_ci": [
+  0.17399251419757703,
+  0.1910768966748946
+ ],
+ "split.densenet_chex.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "split.densenet_chex.mean_auroc": 0.6370897492667428,
+ "split.densenet_chex.mean_auroc_ci": [
+  0.6260302258028352,
+  0.6479192413564574
+ ],
+ "split.densenet_chex.precision": 0.1047365041734578,
+ "split.densenet_chex.recall": 0.7084725377522384,
+ "split.densenet_chex.specificity": 0.4480591452200285,
+ "split.densenet_mimic_ch.auroc.Atelectasis": 0.6013281579133614,
+ "split.densenet_mimic_ch.auroc.Cardiomegaly": 0.6007427983662303,
+ "split.densenet_mimic_ch.auroc.Consolidation": 0.6246033624314987,
+ "split.densenet_mimic_ch.auroc.Edema": 0.6767369720659009,
+ "split.densenet_mimic_ch.auroc.Effusion": 0.696928721985673,
+ "split.densenet_mimic_ch.auroc.Pneumonia": 0.5709006238777414,
+ "split.densenet_mimic_ch.auroc.Pneumothorax": 0.6063737914125769,
+ "split.densenet_mimic_ch.f1": 0.19993037827802274,
+ "split.densenet_mimic_ch.f1_ci": [
+  0.1909904267829239,
+  0.20869774302980343
+ ],
+ "split.densenet_mimic_ch.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "split.densenet_mimic_ch.mean_auroc": 0.6253734897218547,
+ "split.densenet_mimic_ch.mean_auroc_ci": [
+  0.6163271198988741,
+  0.6344524135797143
+ ],
+ "split.densenet_mimic_ch.precision": 0.11687959299039005,
+ "split.densenet_mimic_ch.recall": 0.690765735667513,
+ "split.densenet_mimic_ch.specificity": 0.5243048366076757,
+ "split.densenet_mimic_nb.auroc.Atelectasis": 0.5843081180084415,
+ "split.densenet_mimic_nb.auroc.Cardiomegaly": 0.6260248771108589,
+ "split.densenet_mimic_nb.auroc.Consolidation": 0.6108684931821048,
+ "split.densenet_mimic_nb.auroc.Edema": 0.728295219137909,
+ "split.densenet_mimic_nb.auroc.Effusion": 0.6935098485987847,
+ "split.densenet_mimic_nb.auroc.Pneumonia": 0.569016542599866,
+ "split.densenet_mimic_nb.auroc.Pneumothorax": 0.6260204710714246,
+ "split.densenet_mimic_nb.f1": 0.19345687319282037,
+ "split.densenet_mimic_nb.f1_ci": [
+  0.18529863917237893,
+  0.2019895833552725
+ ],
+ "split.densenet_mimic_nb.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "split.densenet_mimic_nb.mean_auroc": 0.6340062242441985,
+ "split.densenet_mimic_nb.mean_auroc_ci": [
+  0.6243519167835966,
+  0.6436855872603408
+ ],
+ "split.densenet_mimic_nb.precision": 0.11196480444575423,
+ "split.densenet_mimic_nb.recall": 0.7108111719898437,
+ "split.densenet_mimic_nb.specificity": 0.48616981109094676,
+ "split.densenet_nih.auroc.Atelectasis": 0.6620034673799685,
+ "split.densenet_nih.auroc.Cardiomegaly": 0.8078443400779798,
+ "split.densenet_nih.auroc.Consolidation": 0.6634849359449976,
+ "split.densenet_nih.auroc.Edema": 0.7350211376306791,
+ "split.densenet_nih.auroc.Effusion": 0.7466123121439605,
+ "split.densenet_nih.auroc.Emphysema": 0.5158945751886012,
+ "split.densenet_nih.auroc.Fibrosis": 0.6706880791153249,
+ "split.densenet_nih.auroc.Hernia": 0.733936076139772,
+ "split.densenet_nih.auroc.Infiltration": 0.6309906055619808,
+ "split.densenet_nih.auroc.Mass": 0.7085518303565603,
+ "split.densenet_nih.auroc.Nodule": 0.6270850018449848,
+ "split.densenet_nih.auroc.Pleural_Thickening": 0.6816254790422493,
+ "split.densenet_nih.auroc.Pneumonia": 0.6211609357050834,
+ "split.densenet_nih.auroc.Pneumothorax": 0.5997779454686761,
+ "split.densenet_nih.f1": 0.2814300960512273,
+ "split.densenet_nih.f1_ci": [
+  0.27240940862563695,
+  0.2895140509862202
+ ],
+ "split.densenet_nih.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Emphysema",
+  "Fibrosis",
+  "Hernia",
+  "Infiltration",
+  "Mass",
+  "Nodule",
+  "Pleural_Thickening",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "split.densenet_nih.mean_auroc": 0.6717626229714869,
+ "split.densenet_nih.mean_auroc_ci": [
+  0.6615317819808966,
+  0.681419333153859
+ ],
+ "split.densenet_nih.precision": 0.1982885673895389,
+ "split.densenet_nih.recall": 0.48463574211570976,
+ "split.densenet_nih.specificity": 0.8390127378917551,
+ "split.densenet_pc.auroc.Atelectasis": 0.6547380659365208,
+ "split.densenet_pc.auroc.Cardiomegaly": 0.7959345541689933,
+ "split.densenet_pc.auroc.Consolidation": 0.6540909629570937,
+ "split.densenet_pc.auroc.Edema": 0.7439839531477486,
+ "split.densenet_pc.auroc.Effusion": 0.751729666531473,
+ "split.densenet_pc.auroc.Emphysema": 0.595515910276162,
+ "split.densenet_pc.auroc.Fibrosis": 0.4479528845727766,
+ "split.densenet_pc.auroc.Hernia": 0.8293824583154804,
+ "split.densenet_pc.auroc.Infiltration": 0.6506537726014417,
+ "split.densenet_pc.auroc.Mass": 0.6510810840893929,
+ "split.densenet_pc.auroc.Nodule": 0.6112257142643452,
+ "split.densenet_pc.auroc.Pleural_Thickening": 0.5736535698547026,
+ "split.densenet_pc.auroc.Pneumonia": 0.6555470289985685,
+ "split.densenet_pc.auroc.Pneumothorax": 0.6751332634006105,
+ "split.densenet_pc.f1": 0.24975127053698673,
+ "split.densenet_pc.f1_ci": [
+  0.24141833471712165,
+  0.2581118604421029
+ ],
+ "split.densenet_pc.findings": [
+  "Atelectasis",
+  "Cardiomegaly",
+  "Consolidation",
+  "Edema",
+  "Effusion",
+  "Emphysema",
+  "Fibrosis",
+  "Hernia",
+  "Infiltration",
+  "Mass",
+  "Nodule",
+  "Pleural_Thickening",
+  "Pneumonia",
+  "Pneumothorax"
+ ],
+ "split.densenet_pc.mean_auroc": 0.6636159206510935,
+ "split.densenet_pc.mean_auroc_ci": [
+  0.6555275188190056,
+  0.6711937862967219
+ ],
+ "split.densenet_pc.precision": 0.1651474022356302,
+ "split.densenet_pc.recall": 0.5120929206792619,
+ "split.densenet_pc.specificity": 0.7873122384021164,
+ "split.n_images": 25596,
+ "split.n_patients": 2797,
+ "test.anova_f1.F": 1043.9217019786988,
+ "test.anova_f1.df": [
+  2,
+  12
+ ],
+ "test.anova_f1.p": 3.483100663424986e-14,
+ "test.anova_precision.F": 6087.140712312027,
+ "test.anova_precision.df": [
+  2,
+  12
+ ],
+ "test.anova_precision.p": 9.117174274945203e-19,
+ "test.anova_recall.F": 3897.5985771502387,
+ "test.anova_recall.df": [
+  2,
+  12
+ ],
+ "test.anova_recall.p": 1.3186107017317844e-17,
+ "test.anova_specificity.F": 18604.545018031888,
+ "test.anova_specificity.df": [
+  2,
+  12
+ ],
+ "test.anova_specificity.p": 1.1229306899565814e-21,
+ "test.mcnemar_vs_multi.n01": 1775,
+ "test.mcnemar_vs_multi.n10": 2357,
+ "test.mcnemar_vs_multi.p": 1.3870250080034317e-19,
+ "test.mcnemar_vs_resnet.n01": 1748,
+ "test.mcnemar_vs_resnet.n10": 4511,
+ "test.mcnemar_vs_resnet.p": 2.26498419177739e-276,
+ "test.ttest_vs_multi.d": -0.012270383432901332,
+ "test.ttest_vs_multi.n": 50208,
+ "test.ttest_vs_multi.p": 0.005971813610917722,
+ "test.ttest_vs_multi.t": -2.7494422052328686,
+ "test.ttest_vs_resnet.d": 0.22383989367912904,
+ "test.ttest_vs_resnet.n": 50208,
+ "test.ttest_vs_resnet.p": 0.0,
+ "test.ttest_vs_resnet.t": 50.156122199574654,
+ "test.wilcoxon_vs_multi.p": 0.2190001541289459,
+ "test.wilcoxon_vs_resnet.p": 0.0,
+ "time.classification_total_s.densenet_nih": 397.3000590801239,
+ "time.classification_total_s.resnet50_multi": 705.1809456348419,
+ "time.gradcam": 0.061638720394150026,
+ "time.llm": 28.497038702964783,
+ "time.predict_pass_total_s.densenet_multi+densenet_pc+densenet_chex+densenet_mimic_ch+densenet_mimic_nb": 586.146312713623,
+ "time.predict_pass_total_s.densenet_nih+densenet_pc+densenet_chex+densenet_mimic_ch+densenet_mimic_nb__official_test": 295.8020672798157,
+ "time.segmentation": 0.09926739141223877,
+ "timing.classification_s": 0.009152507305145264,
+ "timing.device": "cuda",
+ "timing.gpu": "NVIDIA L4",
+ "timing.gradcam_s": 0.061248589038848875,
+ "timing.gradcam_sd": 0.010700220965419756,
+ "timing.llm_backend": "local",
+ "timing.llm_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+ "timing.llm_s": 32.46163294315338,
+ "timing.llm_sd": 11.788901855996976,
+ "timing.n_images": 500,
+ "timing.n_reports": 10,
+ "timing.segmentation_s": 0.09977537250518799,
+ "timing.segmentation_sd": 0.0038249232781361556,
+ "timing.torch_threads": 6,
+ "timing.total_s": 32.63180941200257,
+ "xai.ci.fused.anatomical_coverage": 1.0,
+ "xai.ci.fused.anatomical_coverage_ci": [
+  1.0,
+  1.0
+ ],
+ "xai.ci.fused.false_positive_rate": 0.4899872262594301,
+ "xai.ci.fused.false_positive_rate_ci": [
+  0.46165108787470716,
+  0.5166798964185624
+ ],
+ "xai.ci.fused.localization_accuracy": 0.16056910569105692,
+ "xai.ci.fused.localization_accuracy_ci": [
+  0.13753268728702933,
+  0.18518518518518517
+ ],
+ "xai.ci.fusedpp.anatomical_coverage": 1.0,
+ "xai.ci.fusedpp.anatomical_coverage_ci": [
+  1.0,
+  1.0
+ ],
+ "xai.ci.fusedpp.false_positive_rate": 0.5013834984575598,
+ "xai.ci.fusedpp.false_positive_rate_ci": [
+  0.4704675617424006,
+  0.5321912484069756
+ ],
+ "xai.ci.fusedpp.localization_accuracy": 0.21544715447154472,
+ "xai.ci.fusedpp.localization_accuracy_ci": [
+  0.18768308415621743,
+  0.24372403297759387
+ ],
+ "xai.ci.gradcam.anatomical_coverage": 0.8096897214932912,
+ "xai.ci.gradcam.anatomical_coverage_ci": [
+  0.7963628050667868,
+  0.8229503990231146
+ ],
+ "xai.ci.gradcam.false_positive_rate": 0.8537506190491131,
+ "xai.ci.gradcam.false_positive_rate_ci": [
+  0.8407111008463656,
+  0.8666308820888448
+ ],
+ "xai.ci.gradcam.localization_accuracy": 0.20833333333333334,
+ "xai.ci.gradcam.localization_accuracy_ci": [
+  0.1826693224982744,
+  0.23588709677419356
+ ],
+ "xai.ci.gradcampp.anatomical_coverage": 0.9072809846620531,
+ "xai.ci.gradcampp.anatomical_coverage_ci": [
+  0.8929470809457792,
+  0.9222347702454995
+ ],
+ "xai.ci.gradcampp.false_positive_rate": 0.7674436086327096,
+ "xai.ci.gradcampp.false_positive_rate_ci": [
+  0.7452113785496404,
+  0.7890102052877495
+ ],
+ "xai.ci.gradcampp.localization_accuracy": 0.2530487804878049,
+ "xai.ci.gradcampp.localization_accuracy_ci": [
+  0.22469220157217973,
+  0.2816076981030188
+ ],
+ "xai.ci.n_boxes": 984,
+ "xai.ci.n_patients": 726,
+ "xai.device": "cuda",
+ "xai.fused.anatomical_coverage": 1.0,
+ "xai.fused.false_positive_rate": 0.4899872262594301,
+ "xai.fused.localization_accuracy": 0.16056910569105692,
+ "xai.fused.n": 984,
+ "xai.fusedpp.anatomical_coverage": 1.0,
+ "xai.fusedpp.false_positive_rate": 0.5013834984575598,
+ "xai.fusedpp.localization_accuracy": 0.21544715447154472,
+ "xai.fusedpp.n": 984,
+ "xai.fusedpp_tau_table": {
+  "0.10": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.69761160733519,
+   "localization_accuracy": 0.25,
+   "n": 984
+  },
+  "0.15": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.6750262384248794,
+   "localization_accuracy": 0.24898373983739838,
+   "n": 984
+  },
+  "0.20": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.6373681507649029,
+   "localization_accuracy": 0.24085365853658536,
+   "n": 984
+  },
+  "0.25": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.5883481444345947,
+   "localization_accuracy": 0.23780487804878048,
+   "n": 984
+  },
+  "0.30": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.5013834984575598,
+   "localization_accuracy": 0.21544715447154472,
+   "n": 984
+  },
+  "0.35": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.3857079240476263,
+   "localization_accuracy": 0.18699186991869918,
+   "n": 984
+  },
+  "0.40": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.24753780326696517,
+   "localization_accuracy": 0.1483739837398374,
+   "n": 984
+  },
+  "0.45": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.14127348095884948,
+   "localization_accuracy": 0.0975609756097561,
+   "n": 984
+  },
+  "0.50": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.07855319325739882,
+   "localization_accuracy": 0.05894308943089431,
+   "n": 984
+  }
+ },
+ "xai.gradcam.anatomical_coverage": 0.8096897214932912,
+ "xai.gradcam.false_positive_rate": 0.8537506190491131,
+ "xai.gradcam.localization_accuracy": 0.20833333333333334,
+ "xai.gradcam.n": 984,
+ "xai.gradcampp.anatomical_coverage": 0.9072809846620531,
+ "xai.gradcampp.false_positive_rate": 0.7674436086327096,
+ "xai.gradcampp.localization_accuracy": 0.2530487804878049,
+ "xai.gradcampp.n": 984,
+ "xai.tau_table": {
+  "0.10": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7932600018576018,
+   "localization_accuracy": 0.21544715447154472,
+   "n": 984
+  },
+  "0.15": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7558711130550761,
+   "localization_accuracy": 0.21544715447154472,
+   "n": 984
+  },
+  "0.20": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.7006179971242467,
+   "localization_accuracy": 0.2073170731707317,
+   "n": 984
+  },
+  "0.25": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.6239698982164663,
+   "localization_accuracy": 0.18597560975609756,
+   "n": 984
+  },
+  "0.30": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.4899872262594301,
+   "localization_accuracy": 0.16056910569105692,
+   "n": 984
+  },
+  "0.35": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.319491252470913,
+   "localization_accuracy": 0.11585365853658537,
+   "n": 984
+  },
+  "0.40": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.19332684730839286,
+   "localization_accuracy": 0.07621951219512195,
+   "n": 984
+  },
+  "0.45": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.09944981116887681,
+   "localization_accuracy": 0.037601626016260166,
+   "n": 984
+  },
+  "0.50": {
+   "anatomical_coverage": 1.0,
+   "false_positive_rate": 0.05107897665743598,
+   "localization_accuracy": 0.018292682926829267,
+   "n": 984
+  }
+ },
+ "xai.test.fused_vs_fusedpp.fpr_diff": -0.011396272198129626,
+ "xai.test.fused_vs_fusedpp.fpr_diff_ci": [
+  -0.043889845571332534,
+  0.022288970609282973
+ ],
+ "xai.test.fused_vs_fusedpp.fpr_wilcoxon_p": 0.4997981696028625,
+ "xai.test.fused_vs_fusedpp.hit_mcnemar_p": 1.082365750651373e-06,
+ "xai.test.fused_vs_fusedpp.hit_mcnemar_p_holm": 2.164731501302746e-06,
+ "xai.test.fused_vs_fusedpp.hit_n01": 34,
+ "xai.test.fused_vs_fusedpp.hit_n10": 88,
+ "xai.test.gradcam_vs_fused.fpr_diff": 0.3637633927896828,
+ "xai.test.gradcam_vs_fused.fpr_diff_ci": [
+  0.33762917478511445,
+  0.391999687580789
+ ],
+ "xai.test.gradcam_vs_fused.fpr_wilcoxon_p": 6.773813668626208e-86,
+ "xai.test.gradcam_vs_fused.hit_mcnemar_p": 1.7539187463500028e-10,
+ "xai.test.gradcam_vs_fused.hit_mcnemar_p_holm": 7.015674985400011e-10,
+ "xai.test.gradcam_vs_fused.hit_n01": 53,
+ "xai.test.gradcam_vs_fused.hit_n10": 6,
+ "xai.test.gradcam_vs_gradcampp.fpr_diff": 0.08630701041640339,
+ "xai.test.gradcam_vs_gradcampp.fpr_diff_ci": [
+  0.07355250406061817,
+  0.1002348185014064
+ ],
+ "xai.test.gradcam_vs_gradcampp.fpr_wilcoxon_p": 1.0635435807867613e-32,
+ "xai.test.gradcam_vs_gradcampp.hit_mcnemar_p": 8.407391840775641e-05,
+ "xai.test.gradcam_vs_gradcampp.hit_mcnemar_p_holm": 8.407391840775641e-05,
+ "xai.test.gradcam_vs_gradcampp.hit_n01": 39,
+ "xai.test.gradcam_vs_gradcampp.hit_n10": 83,
+ "xai.test.gradcampp_vs_fused.fpr_diff": 0.2774563823732794,
+ "xai.test.gradcampp_vs_fused.fpr_diff_ci": [
+  0.24875818411104014,
+  0.30932686579402796
+ ],
+ "xai.test.gradcampp_vs_fused.fpr_wilcoxon_p": 7.618819531659639e-50,
+ "xai.test.gradcampp_vs_fused.hit_mcnemar_p": 1.910940861758424e-15,
+ "xai.test.gradcampp_vs_fused.hit_mcnemar_p_holm": 9.55470430879212e-15,
+ "xai.test.gradcampp_vs_fused.hit_n01": 115,
+ "xai.test.gradcampp_vs_fused.hit_n10": 24,
+ "xai.test.gradcampp_vs_fusedpp.fpr_diff": 0.26606011017514974,
+ "xai.test.gradcampp_vs_fusedpp.fpr_diff_ci": [
+  0.2392988470257166,
+  0.29186732490497785
+ ],
+ "xai.test.gradcampp_vs_fusedpp.fpr_wilcoxon_p": 2.0320102342816101e-81,
+ "xai.test.gradcampp_vs_fusedpp.hit_mcnemar_p": 3.0213413992896676e-09,
+ "xai.test.gradcampp_vs_fusedpp.hit_mcnemar_p_holm": 9.064024197869003e-09,
+ "xai.test.gradcampp_vs_fusedpp.hit_n01": 40,
+ "xai.test.gradcampp_vs_fusedpp.hit_n10": 3,
+ "sample.no_finding_share": 0.11404557042702358,
+ "cls.densenet_nih.mean_auroc_vs_no_finding": 0.7645154506731829,
+ "report.fid.n_complete": 100,
+ "report.fid.recall": 0.8850064350064349,
+ "report.fid.n_with_findings": 74,
+ "report.fid.hallucination_rate": 0.11,
+ "report.fid.hallucination_rate_ci": [
+  0.06254131955225126,
+  0.18631463027903022
+ ],
+ "report.fid.hallucinated_per_report": 0.13,
+ "report.fid.contradiction_rate": 0.0,
+ "report.fid.top_hallucinated": {
+  "Mass": 6,
+  "Pneumonia": 2,
+  "Fibrosis": 2,
+  "Effusion": 1,
+  "Emphysema": 1
+ },
+ "time.classification": 0.007913082757331977,
+ "time.total": 28.665857897528504
+}

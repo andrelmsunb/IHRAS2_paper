@@ -1,0 +1,19 @@
+
+===== 2026-11-14T03:12:00Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u analysis/report_fidelity.py /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+report.all_findings_mentioned 61
+report.backend local
+report.bleu4_mean 0.017877001298002983
+report.bleu4_sd 0.011917549909468807
+report.finding_mention_recall 0.8877091377091377
+report.max_tokens 1024
+report.model deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+report.n 100
+report.n_complete 100
+report.n_with_findings 74
+report.n_with_region 74
+report.rouge_l_mean 0.0611736375777068
+report.rouge_l_sd 0.037868812644571405
+report.time_sd 6.806428038250177
+report.words_mean 189.36
+===== exit=0 elapsed=1s

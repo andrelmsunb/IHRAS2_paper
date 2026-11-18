@@ -1,0 +1,587 @@
+{
+ "run_id": "run03",
+ "finalized_utc": "2026-11-14T03:12:21Z",
+ "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+ "jobs": {
+  "A0_sampling": {
+   "finished_utc": "2026-11-13T15:43:25Z",
+   "elapsed_s": 8,
+   "track": "A",
+   "session": "20261113_154034",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A0_sampling",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling"
+   ]
+  },
+  "A1_predict_nih": {
+   "finished_utc": "2026-11-13T16:04:04Z",
+   "elapsed_s": 410,
+   "track": "A",
+   "session": "20261113_154034",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A1_predict_nih",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling,predict",
+    "--models",
+    "densenet_nih"
+   ]
+  },
+  "A2_report": {
+   "finished_utc": "2026-11-13T18:36:41Z",
+   "elapsed_s": 2894,
+   "track": "A",
+   "session": "20261113_173239",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A2_report",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "report",
+    "--llm-backend",
+    "local",
+    "--llm-model",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "--llm-max-tokens",
+    "1024",
+    "--report-n",
+    "100"
+   ]
+  },
+  "A3_ablation": {
+   "finished_utc": "2026-11-14T00:58:23Z",
+   "elapsed_s": 6846,
+   "track": "A",
+   "session": "20261113_225233",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A3_ablation",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "ablation",
+    "--llm-backend",
+    "local",
+    "--ablation-models",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B,deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "--ablation-n",
+    "200",
+    "--llm-batch-size",
+    "4",
+    "--llm-dtype",
+    "float32",
+    "--llm-max-tokens",
+    "1024"
+   ]
+  },
+  "A_tests": {
+   "finished_utc": "2026-11-13T15:43:13Z",
+   "elapsed_s": 61,
+   "track": "A",
+   "session": "20261113_154034",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "pytest",
+    "tests",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+   ]
+  },
+  "B0_sampling": {
+   "finished_utc": "2026-11-13T15:44:21Z",
+   "elapsed_s": 8,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B0_sampling",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling"
+   ]
+  },
+  "B1_explain": {
+   "finished_utc": "2026-11-13T16:02:31Z",
+   "elapsed_s": 308,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B1_explain",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "explain"
+   ]
+  },
+  "B2_predict_models": {
+   "finished_utc": "2026-11-13T16:24:24Z",
+   "elapsed_s": 1313,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B2_predict_models",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling,predict",
+    "--models",
+    "densenet_multi,resnet50_multi,densenet_pc,densenet_chex,densenet_mimic_ch,densenet_mimic_nb"
+   ]
+  },
+  "B3_robustness": {
+   "finished_utc": "2026-11-13T16:25:27Z",
+   "elapsed_s": 63,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B3_robustness",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling,robustness"
+   ]
+  },
+  "B4_official": {
+   "finished_utc": "2026-11-13T16:38:45Z",
+   "elapsed_s": 799,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B4_official",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "official",
+    "--models",
+    "densenet_nih,densenet_pc,densenet_chex,densenet_mimic_ch,densenet_mimic_nb"
+   ]
+  },
+  "B5_timing": {
+   "finished_utc": "2026-11-13T16:46:16Z",
+   "elapsed_s": 450,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B5_timing",
+    "--workers",
+    "11",
+    "--device",
+    "cuda",
+    "--stages",
+    "sampling,timing",
+    "--llm-backend",
+    "local",
+    "--llm-model",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "--llm-max-tokens",
+    "1024"
+   ]
+  },
+  "B_tests": {
+   "finished_utc": "2026-11-13T15:44:09Z",
+   "elapsed_s": 61,
+   "track": "B",
+   "session": "20261113_154133",
+   "gpu": "NVIDIA L4",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "pytest",
+    "tests",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+   ]
+  },
+  "M1_merge": {
+   "finished_utc": "2026-11-14T02:02:20Z",
+   "elapsed_s": 22,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "analysis/merge_jobs.py",
+    "--dst",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A0_sampling",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A1_predict_nih",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A2_report",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A3_ablation",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B0_sampling",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B1_explain",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B2_predict_models",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B3_robustness",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B4_official",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B5_timing"
+   ]
+  },
+  "M2_statistics": {
+   "finished_utc": "2026-11-14T03:12:00Z",
+   "elapsed_s": 4180,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged",
+    "--workers",
+    "2",
+    "--stages",
+    "classify,fairness,external,xai_stats"
+   ]
+  },
+  "M3_report_fidelity": {
+   "finished_utc": "2026-11-14T03:12:01Z",
+   "elapsed_s": 1,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "analysis/report_fidelity.py",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged"
+   ]
+  },
+  "M4_paired_details": {
+   "finished_utc": "2026-11-14T03:12:07Z",
+   "elapsed_s": 6,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "analysis/paired_details.py",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged"
+   ]
+  },
+  "M5_report_hallucination": {
+   "finished_utc": "2026-11-14T03:12:08Z",
+   "elapsed_s": 1,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "analysis/report_hallucination.py",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged"
+   ]
+  },
+  "M6_figures_compare": {
+   "finished_utc": "2026-11-14T03:12:21Z",
+   "elapsed_s": 13,
+   "track": "M",
+   "session": "20261114_020027",
+   "gpu": null,
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "cmd": [
+    "/usr/bin/python3",
+    "-u",
+    "run_all.py",
+    "--nih-dir",
+    "/content/nih",
+    "--out",
+    "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged",
+    "--workers",
+    "2",
+    "--stages",
+    "figures,compare"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "cudnn": 92800,
+   "gpu": "NVIDIA L4",
+   "vcpus": 12,
+   "torchxrayvision": "1.5.7",
+   "transformers": "5.22.1",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "scikit-learn": "1.9.0",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "track": "A",
+   "session_utc": "20261113_154034"
+  },
+  {
+   "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "cudnn": 92800,
+   "gpu": "NVIDIA L4",
+   "vcpus": 12,
+   "torchxrayvision": "1.5.7",
+   "transformers": "5.22.1",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "scikit-learn": "1.9.0",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "track": "A",
+   "session_utc": "20261113_173239"
+  },
+  {
+   "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "cudnn": 92800,
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "vcpus": 12,
+   "torchxrayvision": "1.5.7",
+   "transformers": "5.22.1",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "scikit-learn": "1.9.0",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "track": "A",
+   "session_utc": "20261113_225233"
+  },
+  {
+   "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "cudnn": 92800,
+   "gpu": "NVIDIA L4",
+   "vcpus": 12,
+   "torchxrayvision": "1.5.7",
+   "transformers": "5.22.1",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "scikit-learn": "1.9.0",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "track": "B",
+   "session_utc": "20261113_154133"
+  },
+  {
+   "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+   "torch": "2.14.1+cpu",
+   "cuda": null,
+   "cudnn": null,
+   "gpu": null,
+   "vcpus": 2,
+   "torchxrayvision": "1.5.7",
+   "transformers": "5.22.1",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "scikit-learn": "1.9.0",
+   "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86",
+   "track": "M",
+   "session_utc": "20261114_020027"
+  }
+ ],
+ "data_manifest": {
+  "source": "kaggle:nih-chest-xrays/data",
+  "downloaded_utc": "2026-11-13T00:25:25Z",
+  "download_seconds": 529,
+  "kaggle_client": "Kaggle CLI 2.2.5",
+  "credentials": "KAGGLE_API_TOKEN secret",
+  "archive": {
+   "file": "data.zip",
+   "bytes": 45096150231,
+   "sha256": "5e9ee832f1c790373df187c6f754f64fed619e489b0b4938262b14d01314383e",
+   "drive_copy_verified": true
+  },
+  "png_images": 112120,
+  "image_folders": [
+   "images_001",
+   "images_002",
+   "images_003",
+   "images_004",
+   "images_005",
+   "images_006",
+   "images_007",
+   "images_008",
+   "images_009",
+   "images_010",
+   "images_011",
+   "images_012"
+  ],
+  "metadata_files": {
+   "BBox_List_2017.csv": {
+    "sha256": "0bbfea9d4c4e9771481b3023b1bc9f0df9dea924453b12986beb29b0c4d0c95b",
+    "bytes": 92416
+   },
+   "Data_Entry_2017.csv": {
+    "sha256": "88f75094e25ccc0c6f1f9cdfd4b2f94f9379a0ae07d5ff4dcf94242707b07462",
+    "bytes": 7861152
+   },
+   "test_list.txt": {
+    "sha256": "38ca5ef7f756092946f57c1a59faca882ed589a1ab1f72590b45dc06c6d5e1cc",
+    "bytes": 435131
+   },
+   "train_val_list.txt": {
+    "sha256": "61fbe896321c1c1c8b75f3e4f3a08e4fef6486d95ef8a667c31d4d60dca6cb81",
+    "bytes": 1470907
+   }
+  },
+  "checks": {
+   "rows": 112120,
+   "patients": 30805,
+   "age_max": 414,
+   "n_age_over_120": 16,
+   "bbox_rows": 984,
+   "bbox_images": 880,
+   "test_list_images": 25596,
+   "looks_like_original_2017": true
+  },
+  "validations": [
+   {
+    "utc": "2026-11-13T00:25:25Z",
+    "png_images": 112120,
+    "checks": {
+     "rows": 112120,
+     "patients": 30805,
+     "age_max": 414,
+     "n_age_over_120": 16,
+     "bbox_rows": 984,
+     "bbox_images": 880,
+     "test_list_images": 25596,
+     "looks_like_original_2017": true
+    }
+   }
+  ]
+ },
+ "comparison_article": {
+  "MATCH": 79,
+  "MISMATCH": 12,
+  "NOT_COMPUTED": 0
+ },
+ "diff_vs_cpu_run": {
+  "identical": 66,
+  "within tolerance": 93,
+  "OUT OF TOLERANCE": 11,
+  "time (hardware)": 7,
+  "missing or non-numeric": 43
+ }
+}

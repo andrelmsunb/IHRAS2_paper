@@ -1,0 +1,5 @@
+               total        used        free      shared  buff/cache   available
+Mem:            12Gi       2.8Gi       8.0Gi       2.7Mi       2.3Gi       9.9Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         226G  375M  226G   1% /

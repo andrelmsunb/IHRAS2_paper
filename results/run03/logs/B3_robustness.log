@@ -1,0 +1,9 @@
+
+===== 2026-11-13T16:24:24Z track=B session=20261113_154133 gpu=NVIDIA L4
+$ /usr/bin/python3 -u run_all.py --nih-dir /content/nih --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B3_robustness --workers 11 --device cuda --stages sampling,robustness
+== stage sampling
+sampling: {'n': 50208, 'n_strata': 3489, 'largest_stratum': 9677, 'formula_n_largest': 369.5285482537056, 'formula_n_largest_ceil': 370} {'repr.ks_age.D': 0.03478017924208043, 'repr.ks_age.p': 6.986023051245868e-37, 'repr.chi2_sex.stat': 41.31452923000482, 'repr.chi2_sex.p': 1.29601991638668e-10, 'repr.chi2_pathology.stat': 914.217881898617, 'repr.chi2_pathology.p': 4.5315192016441447e-187, 'repr.chi2_pathology.df': 13}
+== stage robustness
+robustness: {'robust.noise_30db.degradation_pct': 0.612962189851844, 'robust.noise_20db.degradation_pct': 29.180524243241138, 'robust.noise_10db.degradation_pct': 52.506356387745036, 'robust.photometric_40_neg.degradation_pct': 5.347912022575169, 'robust.photometric_20_neg.degradation_pct': 1.9085986552165, 'robust.photometric_20.degradation_pct': 5.042092333503088, 'robust.photometric_40.degradation_pct': 9.807457145524626, 'robust.threshold_-10.f1': 0.22788590258469776, 'robust.threshold_+10.f1': 0.2875760208514335}
+results in /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B3_robustness
+===== exit=0 elapsed=63s

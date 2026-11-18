@@ -13,3 +13,6 @@ __pycache__/
 results/*/predictions_*
 results/*/sample_manifest.csv
 .DS_Store
+
+# Logs of the run reported in the article are part of the evidence package
+!results/run03/logs/*.log

@@ -1,0 +1,16 @@
+
+===== 2026-11-14T02:02:20Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u run_all.py --nih-dir /content/nih --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged --workers 2 --stages classify,fairness,external,xai_stats
+== stage classify
+classify: done
+== stage fairness
+fairness: done
+== stage external
+external: densenet_pc  14 findings  mean AUROC 0.648 (NIH-trained 0.668)
+external: densenet_chex  7 findings  mean AUROC 0.634 (NIH-trained 0.696)
+external: densenet_mimic_ch  7 findings  mean AUROC 0.617 (NIH-trained 0.696)
+external: densenet_mimic_nb  7 findings  mean AUROC 0.620 (NIH-trained 0.696)
+== stage xai_stats
+xai_stats: {'gradcam': 0.208, 'gradcampp': 0.253, 'fused': 0.161, 'fusedpp': 0.215}
+results in /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+===== exit=0 elapsed=4180s

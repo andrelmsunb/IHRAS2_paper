@@ -1,0 +1,1 @@
+{"finished_utc": "2026-11-14T03:12:08Z", "elapsed_s": 1, "track": "M", "session": "20261114_020027", "gpu": null, "code_hash": "693002c2455aef2dbf3c2fe31aeffe35e30edd862cc5970e9a45d98be45a6a86", "cmd": ["/usr/bin/python3", "-u", "analysis/report_hallucination.py", "--out", "/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged"]}

@@ -1,0 +1,9 @@
+
+===== 2026-11-14T03:12:08Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u run_all.py --nih-dir /content/nih --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged --workers 2 --stages figures,compare
+== stage figures
+figures: ['/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig2_pathology_distribution.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig3_cnn_comparison.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig4_tau_sensitivity.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig5_auroc_pathology.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig6_cv_folds.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig8_explainability_bars.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig9_report_quality.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig11_robustness.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig12_demographic.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig8b_explainability_ci.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig13_external_validation.png', '/content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/figures/fig14_prompt_ablation.png']
+== stage compare
+comparison written to /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged/COMPARISON.md {'MATCH': 79, 'MISMATCH': 12, 'NOT COMPUTED': 0}
+results in /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+===== exit=0 elapsed=13s

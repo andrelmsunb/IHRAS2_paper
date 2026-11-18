@@ -1,0 +1,11 @@
+
+===== 2026-11-13T16:25:27Z track=B session=20261113_154133 gpu=NVIDIA L4
+$ /usr/bin/python3 -u run_all.py --nih-dir /content/nih --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B4_official --workers 11 --device cuda --stages official --models densenet_nih,densenet_pc,densenet_chex,densenet_mimic_ch,densenet_mimic_nb
+== stage official
+official: densenet_nih  F1 0.281  mean AUROC 0.672
+official: densenet_pc  F1 0.250  mean AUROC 0.664
+official: densenet_chex  F1 0.182  mean AUROC 0.637
+official: densenet_mimic_ch  F1 0.200  mean AUROC 0.625
+official: densenet_mimic_nb  F1 0.193  mean AUROC 0.634
+results in /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B4_official
+===== exit=0 elapsed=799s

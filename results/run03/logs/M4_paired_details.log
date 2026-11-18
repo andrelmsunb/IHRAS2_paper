@@ -1,0 +1,5 @@
+
+===== 2026-11-14T03:12:01Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u analysis/paired_details.py --out /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+{'test.mcnemar_vs_multi.n01': 1775, 'test.mcnemar_vs_multi.n10': 2357, 'test.mcnemar_vs_resnet.n01': 1748, 'test.mcnemar_vs_resnet.n10': 4511, 'cls.densenet_nih.exact_match': 0.09821144040790313, 'cls.densenet_nih.per_image_f1_mean': 0.30333934763009807, 'cls.densenet_multi.exact_match': 0.10980321861057998, 'cls.densenet_multi.per_image_f1_mean': 0.30736174427468643, 'cls.resnet50_multi.exact_match': 0.15324251115360102, 'cls.resnet50_multi.per_image_f1_mean': 0.2064221884579198, 'sample.no_finding_share': 0.11404557042702358, 'cls.densenet_nih.mean_auroc_vs_no_finding': 0.7645154506731829}
+===== exit=0 elapsed=6s

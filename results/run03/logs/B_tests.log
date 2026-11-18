@@ -1,0 +1,29 @@
+
+===== 2026-11-13T15:43:08Z track=B session=20261113_154133 gpu=NVIDIA L4
+$ /usr/bin/python3 -u -m pytest tests -q -p no:cacheprovider
+................                                                         [100%]
+=============================== warnings summary ===============================
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+  /content/ihras_code/run_all.py:466: RuntimeWarning: Mean of empty slice
+    res["xai.ci.%s.%s" % (m, metric)] = float(np.nanmean(v))
+
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+  /content/ihras_code/run_all.py:468: RuntimeWarning: Mean of empty slice
+    lambda i, v=v: np.nanmean(v[i]), len(v), a.bootstrap, a.seed, groups)
+
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+tests/test_pipeline.py::test_new_stages_smoke
+  /usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1573: RuntimeWarning: All-NaN slice encountered
+    return _nanquantile_unchecked(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+16 passed, 12 warnings in 56.14s
+===== exit=0 elapsed=61s

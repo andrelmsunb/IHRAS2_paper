@@ -1,0 +1,5 @@
+
+===== 2026-11-14T02:01:58Z track=M session=20261114_020027 gpu=None
+$ /usr/bin/python3 -u analysis/merge_jobs.py --dst /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A0_sampling /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A1_predict_nih /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A2_report /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/A3_ablation /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B0_sampling /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B1_explain /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B2_predict_models /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B3_robustness /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B4_official /content/drive/MyDrive/pesquisa/ihras2/runs/run03/jobs/B5_timing
+merged 298 keys and 19 artifacts from 10 jobs into /content/drive/MyDrive/pesquisa/ihras2/runs/run03/merged
+===== exit=0 elapsed=22s
