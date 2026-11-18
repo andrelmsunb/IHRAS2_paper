@@ -1,11 +1,18 @@
-# TODO before upload: add the Zenodo DOI.
 cff-version: 1.2.0
 message: "If you use this software, please cite the article and this archive."
 title: "IHRAS: reproducibility package"
-version: 1.0.0
-date-released: 2026-11-11
+version: 1.1.0
+date-released: 2026-11-18
+doi: 10.5281/zenodo.24353915
 license: MIT
 repository-code: "https://github.com/andrelmsunb/IHRAS2_paper"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24353610
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.24353915
+    description: "Version 1.1.0, evidence package of run03"
 authors:
   - family-names: Serrano
     given-names: André Luiz Marques
