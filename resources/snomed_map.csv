@@ -1,0 +1,32 @@
+term,kind,sctid,display,verified,note
+Atelectasis,finding,46621007,Atelectasis (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Cardiomegaly,finding,8186001,Cardiomegaly (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Consolidation,finding,95436008,Lung consolidation (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Edema,finding,19242006,Pulmonary edema (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",NIH label 'Edema' refers to pulmonary edema
+Effusion,finding,60046008,Pleural effusion (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Emphysema,finding,87433001,Pulmonary emphysema (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Fibrosis,finding,51615001,Fibrosis of lung (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Hernia,finding,84089009,Hiatal hernia (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",assumption: the NIH 'Hernia' label is mostly hiatal hernia on chest radiographs
+Infiltration,finding,409609008,Radiologic infiltrate of lung (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Mass,finding,309529002,Lung mass (finding),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Nodule,finding,786838002,Nodule of lung (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Pleural_Thickening,finding,73725006,Thickening of pleura (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Pneumonia,finding,233604007,Pneumonia (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",also stated in the article (Sec. 3.1)
+Pneumothorax,finding,36118008,Pneumothorax (disorder),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Finding site,relation,363698007,Finding site (attribute),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",also stated in the article (Sec. 3.1)
+Lower lobe of lung,site,90572001,Structure of lower lobe of lung (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",the article (Sec. 3.1) calls 90572001 'lower lobe of right lung'; it has no laterality. Not used by the pipeline
+Lower lobe of right lung,site,266005,Structure of lower lobe of right lung (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",correct code for the article example. Not used by the pipeline
+Left Lung,site,44029006,Left lung structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Right Lung,site,3341006,Right lung structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Left Clavicle,site,51299004,Bone structure of clavicle (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Right Clavicle,site,51299004,Bone structure of clavicle (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Left Scapula,site,79601000,Bone structure of scapula (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Right Scapula,site,79601000,Bone structure of scapula (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Left Hilus Pulmonis,site,46750007,Structure of hilum of lung (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Right Hilus Pulmonis,site,46750007,Structure of hilum of lung (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",laterality not coded
+Heart,site,80891009,Heart structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Aorta,site,15825003,Aortic structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Facies Diaphragmatica,site,5798000,Diaphragm structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",approximation: the segmenter target is the diaphragmatic surface
+Mediastinum,site,72410000,Mediastinal structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
+Weasand,site,44567001,Tracheal structure (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",assumption: 'Weasand' (windpipe) is the trachea target of ChestX-Det
+Spine,site,421060004,Structure of vertebral column (body structure),"tx.fhir.org, SNOMED CT International 2025-02-01, checked 2026-11-13",
