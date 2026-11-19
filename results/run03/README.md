@@ -42,7 +42,7 @@ This folder holds the lightweight evidence package of **run03**, the run whose v
 ## Code changes after run03
 
 After run03, the files below were edited or added outside `colab/`. None of these changes alters a computed value:
-- `ihras/figures.py`: the legend of Fig. 13 was moved above the axes;
+- `ihras/figures.py`: the legend of Fig. 13 was moved above the axes, and the prompt-ablation figure (Fig. 14, Figure 4 of the article) was redrawn at single-column width with the two panels stacked and the axis label "unsupported finding";
 - `ihras/reference_values.py`: the reference values were updated to the final manuscript;
 - `CITATION.cff`: the final authors and ORCIDs were added;
 - `README.md`;

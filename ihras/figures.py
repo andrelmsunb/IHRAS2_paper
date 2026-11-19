@@ -358,8 +358,12 @@ def fig13_external(R, out):
 
 
 def fig14_ablation(R, out):
-    """Prompt ablation (stage ablation): hallucination rate (Wilson 95% CI) and
-    recall of input findings per prompt arm and LLM."""
+    """Prompt ablation (stage ablation): share of reports with an unsupported
+    finding (Wilson 95% CI) and recall of input findings per prompt arm and LLM.
+
+    Drawn at single-column width (3.4 in) with the two panels stacked, so that
+    the text stays legible when the figure is printed at column width.
+    """
     models = R.get("ablation.models") or []
     arms = R.get("ablation.arms") or []
     if not models or not arms:
@@ -367,25 +371,41 @@ def fig14_ablation(R, out):
     import re
     tags = [re.sub(r"[^a-z0-9]+", "_", m.split("/")[-1].lower()).strip("_") for m in models]
     names = {"plain": "Plain", "crispe": "CRISPE", "crispe_snomed": "CRISPE +\nSNOMED CT"}
-    fig, axes = plt.subplots(1, 2, figsize=(6.4, 2.4))
+    fig, axes = plt.subplots(2, 1, figsize=(3.4, 3.4), sharex=True)
     w = 0.8 / len(models)
     for k, (m, t) in enumerate(zip(models, tags)):
         col = (C1, C2, C3, C4)[k % 4]
         x = np.arange(len(arms)) + (k - (len(models) - 1) / 2) * w
+        # Short legend label: the parameter count of the distilled model.
+        size = re.search(r"(\d+(?:\.\d+)?B)", m.split("/")[-1])
+        lab = "DeepSeek-R1-Distill %s" % size.group(1) if size else m.split("/")[-1]
         hr = [R.get("ablation.%s.%s.hallucination_rate" % (t, a), np.nan) for a in arms]
         ci = [R.get("ablation.%s.%s.hallucination_rate_ci" % (t, a)) for a in arms]
-        axes[0].bar(x, hr, w * 0.92, color=col, yerr=_err(hr, ci), capsize=1.5,
-                    error_kw=dict(ecolor=INK, elinewidth=0.6), label=m.split("/")[-1])
+        hr_pc = [100 * v for v in hr]
+        ci_pc = [[100 * c[0], 100 * c[1]] if c else None for c in ci]
+        axes[0].bar(x, hr_pc, w * 0.92, color=col, yerr=_err(hr_pc, ci_pc), capsize=2,
+                    error_kw=dict(ecolor=INK, elinewidth=0.7), label=lab)
+        for xi, v in zip(x, hr_pc):
+            axes[0].text(xi, 1.0, "%.1f" % v, ha="center", va="bottom", fontsize=6.5,
+                         color="white", fontweight="bold")
         rc = [R.get("ablation.%s.%s.recall" % (t, a), np.nan) for a in arms]
         axes[1].bar(x, rc, w * 0.92, color=col)
-    for ax, lab in zip(axes, ("Reports with a hallucinated finding", "Recall of input findings")):
-        ax.set_xticks(range(len(arms)))
-        ax.set_xticklabels([names.get(a, a) for a in arms], fontsize=6.5)
-        ax.set_ylim(0, 1)
-        ax.set_ylabel(lab, fontsize=7)
+        for xi, v in zip(x, rc):
+            axes[1].text(xi, v + 0.015, "%.3f" % v, ha="center", va="bottom", fontsize=6.5,
+                         color=INK)
+    axes[0].set_ylabel("Reports with an\nunsupported finding (%)", fontsize=8)
+    axes[0].set_ylim(0, 40)
+    axes[1].set_ylabel("Recall of\ninput findings", fontsize=8)
+    axes[1].set_ylim(0, 1.1)
+    axes[1].set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+    axes[1].set_xticks(range(len(arms)))
+    axes[1].set_xticklabels([names.get(a, a) for a in arms], fontsize=8)
+    for ax in axes:
+        ax.tick_params(labelsize=7.5)
         _style(ax)
-    axes[0].legend(fontsize=6, loc="upper right")
-    fig.tight_layout()
+    axes[0].legend(fontsize=7.5, loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=2,
+                   handlelength=1.2, columnspacing=1.0)
+    fig.tight_layout(h_pad=0.6)
     return _save(fig, out, "fig14_prompt_ablation.png")
 
 
